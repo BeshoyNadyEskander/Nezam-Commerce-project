@@ -55,5 +55,11 @@ public class P01_HomePage {
         return getLoggedInUserName().equals(userName);
     }
 
+    public P03_createdOrDeleteAccountPage clickOnDeleteAccout()
+    {
+        Utility.clickingOnElement(driver , deleteAccountButton);
+        return new P03_createdOrDeleteAccountPage(driver);
+    }
+
 
 }
