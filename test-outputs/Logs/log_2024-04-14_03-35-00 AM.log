@@ -1,0 +1,18 @@
+[INFO] 14-04-2024 03:35:00 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - Browser is opened: chrome
+[INFO] 14-04-2024 03:35:04 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:56)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 03:35:05 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case signupSteps started
+[INFO] 14-04-2024 03:35:13 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:94)] - Date of Birth is: 3-June-1996
+[INFO] 14-04-2024 03:35:13 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:101)] - checkboxes are selected
+[INFO] 14-04-2024 03:35:13 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:107)] - first name: Beshoy
+[INFO] 14-04-2024 03:35:14 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:113)] - last name: Nady
+[INFO] 14-04-2024 03:35:14 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:120)] - company name: Hoppe, Hirthe and Keebler
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:127)] - first address: Apt. 100 256 Marilu Avenue, New Alex, KS 78126-0979 -second address: Suite 816
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:133)] - country: United States
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:158)] - state: US
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:140)] - city: Miami
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:146)] - zipcode: 56833
+[INFO] 14-04-2024 03:35:15 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:152)] - phone: 856.365.0054 x5079
+[INFO] 14-04-2024 03:35:19 [main] [Utilities.Utility.VerifyURL(Utility.java:106)] - Actual URL: https://automationexercise.com/account_created
+[INFO] 14-04-2024 03:35:19 [main] [Utilities.Utility.VerifyURL(Utility.java:107)] - Expected URL: https://automationexercise.com/account_created
+[INFO] 14-04-2024 03:35:19 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageIsDisplayed(P03_createdAccountPage.java:25)] - message of creating account: Pages.P03_createdOrDeleteAccountPage@105c253a
+[INFO] 14-04-2024 03:35:19 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case signupSteps passed

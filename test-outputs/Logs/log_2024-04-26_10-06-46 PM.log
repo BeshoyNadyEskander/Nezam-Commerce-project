@@ -1,0 +1,163 @@
+[INFO] 26-04-2024 22:06:46 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:35)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:07:02 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:37)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:07:02 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnSignUPTC started
+[INFO] 26-04-2024 22:07:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:07:04 [main] [Pages.P02_signupPage.getNewUserSignUP(P02_signupPage.java:43)] - new user sign up exist
+[INFO] 26-04-2024 22:07:04 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnSignUPTC passed
+[INFO] 26-04-2024 22:07:09 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:35)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:07:21 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:37)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:07:21 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserCouldLogOutFromHisAccount started
+[INFO] 26-04-2024 22:07:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:07:22 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 26-04-2024 22:07:23 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 22:07:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 26-04-2024 22:07:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/logout"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50568/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8250cdd2651d557291e898ecde94d186
+[INFO] 26-04-2024 22:07:34 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:07:34 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:07:34 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserCouldLogOutFromHisAccount passed
+[INFO] 26-04-2024 22:07:43 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:35)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:08:00 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:37)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:00 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyingOnHomePageUrlTC started
+[INFO] 26-04-2024 22:08:00 [main] [Tests.TC01_HomeTestCase.verifyingOnHomePageUrlTC(TC01_HomeTestCase.java:53)] - Actual Result: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:00 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:00 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:00 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 26-04-2024 22:08:00 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyingOnHomePageUrlTC passed
+[INFO] 26-04-2024 22:08:09 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:08:22 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:22 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp started
+[INFO] 26-04-2024 22:08:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:08:25 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 26-04-2024 22:08:26 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-04-26-10-06-30PM
+[INFO] 26-04-2024 22:08:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 26-04-2024 22:08:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 26-04-2024 22:08:27 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 22:08:28 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 26-04-2024 22:08:28 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 26-04-2024 22:08:28 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 26-04-2024 22:08:28 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 26-04-2024 22:08:28 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 26-04-2024 22:08:28 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 26-04-2024 22:08:28 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Osinski, Ondricka and Schamberger
+[INFO] 26-04-2024 22:08:28 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Osinski, Ondricka and Schamberger
+[INFO] 26-04-2024 22:08:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 8354 Hansen Turnpike, North Jae, MI 10383
+[INFO] 26-04-2024 22:08:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 878
+[INFO] 26-04-2024 22:08:29 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: 8354 Hansen Turnpike, North Jae, MI 10383 -second address: Suite 878
+[INFO] 26-04-2024 22:08:29 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 26-04-2024 22:08:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 26-04-2024 22:08:29 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 26-04-2024 22:08:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 26-04-2024 22:08:29 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 26-04-2024 22:08:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 55288
+[INFO] 26-04-2024 22:08:29 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 55288
+[INFO] 26-04-2024 22:08:30 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 259.210.2851
+[INFO] 26-04-2024 22:08:30 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 259.210.2851
+[INFO] 26-04-2024 22:08:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 26-04-2024 22:08:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 26-04-2024 22:08:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 26-04-2024 22:08:40 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/delete_account
+[INFO] 26-04-2024 22:08:40 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/delete_account
+[INFO] 26-04-2024 22:08:40 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageOfDeletingIsDisplayed(P03_createdOrDeleteAccountPage.java:41)] - message of creating account: ACCOUNT DELETED!
+[INFO] 26-04-2024 22:08:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 26-04-2024 22:08:49 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:49 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:49 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp passed
+[INFO] 26-04-2024 22:08:57 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:08:58 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:08:58 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 26-04-2024 22:09:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:09:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 26-04-2024 22:09:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-04-26-10-06-30PM
+[INFO] 26-04-2024 22:09:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 26-04-2024 22:09:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 26-04-2024 22:09:19 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 22:09:20 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 26-04-2024 22:09:20 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 26-04-2024 22:09:20 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 26-04-2024 22:09:20 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 26-04-2024 22:09:20 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 26-04-2024 22:09:20 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 26-04-2024 22:09:21 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Osinski, Ondricka and Schamberger
+[INFO] 26-04-2024 22:09:21 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Osinski, Ondricka and Schamberger
+[INFO] 26-04-2024 22:09:21 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 8354 Hansen Turnpike, North Jae, MI 10383
+[INFO] 26-04-2024 22:09:21 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 878
+[INFO] 26-04-2024 22:09:21 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: 8354 Hansen Turnpike, North Jae, MI 10383 -second address: Suite 878
+[INFO] 26-04-2024 22:09:21 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 26-04-2024 22:09:21 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 26-04-2024 22:09:21 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 26-04-2024 22:09:22 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 26-04-2024 22:09:22 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 26-04-2024 22:09:22 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 55288
+[INFO] 26-04-2024 22:09:22 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 55288
+[INFO] 26-04-2024 22:09:22 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 259.210.2851
+[INFO] 26-04-2024 22:09:22 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 259.210.2851
+[INFO] 26-04-2024 22:09:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 26-04-2024 22:09:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 26-04-2024 22:09:33 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:09:33 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:09:33 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:45)] - user name is: Beshoy Nady
+[INFO] 26-04-2024 22:09:33 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameIsLoggedAfterSignUp passed
+[INFO] 26-04-2024 22:09:34 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 22:09:41 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:09:58 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:09:58 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnUserCouldLoginSuccessfullyWithValidData started
+[INFO] 26-04-2024 22:10:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:10:00 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 26-04-2024 22:10:01 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 22:10:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 26-04-2024 22:10:11 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:50)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50742}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50742/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e0f179a4aeb6d2a2799b5f7cdcf8cf32
+[INFO] 26-04-2024 22:10:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case VerifyOnUserCouldLoginSuccessfullyWithValidData failed
+[INFO] 26-04-2024 22:10:13 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 22:10:19 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:10:38 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:10:38 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnUserCouldNotLoginWithInValidData started
+[INFO] 26-04-2024 22:10:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:10:40 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: tes@example.com
+[INFO] 26-04-2024 22:10:40 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 12345623
+[INFO] 26-04-2024 22:10:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 26-04-2024 22:10:41 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:10:41 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:10:41 [main] [Pages.P04_LoginPage.verifyErrorMessageOfInvalidLoginIsDisplayed(P04_LoginPage.java:63)] - Error Message is:Your email or password is incorrect!
+[INFO] 26-04-2024 22:10:41 [main] [Pages.P04_LoginPage.getErrorMessageOfInvalidDataLogin(P04_LoginPage.java:56)] - Error Message is displayed:true
+[INFO] 26-04-2024 22:10:41 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case VerifyOnUserCouldNotLoginWithInValidData passed
+[INFO] 26-04-2024 22:10:42 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 22:10:50 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:11:07 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:11:07 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterLogin started
+[INFO] 26-04-2024 22:11:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:11:09 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 26-04-2024 22:11:09 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 22:11:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 26-04-2024 22:11:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/delete_account"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50840/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 420dda300ddde1aa4ad17a772b6171cf
+[ERROR] 26-04-2024 22:11:25 [main] [Utilities.Utility.VerifyURL(Utility.java:125)] - Expected condition failed: waiting for url to be "https://automationexercise.com/delete_account". Current url: "https://automationexercise.com/login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50840/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 420dda300ddde1aa4ad17a772b6171cf
+[INFO] 26-04-2024 22:11:35 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterLogin failed
+[INFO] 26-04-2024 22:11:36 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 22:11:43 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 22:11:44 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 22:11:45 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 26-04-2024 22:12:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 22:12:04 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:12:04 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 22:12:04 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:32)] - title is displayed:Login to your account
+[INFO] 26-04-2024 22:12:04 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:25)] - title is displayed:true
+[INFO] 26-04-2024 22:12:04 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameIsLoggedAfterSignUp passed

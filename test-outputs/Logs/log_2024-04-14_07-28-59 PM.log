@@ -1,0 +1,4 @@
+[INFO] 14-04-2024 19:29:00 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:28)] - Browser is opened: chrome
+[INFO] 14-04-2024 19:29:09 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 19:29:11 [main] [Utilities.Utility.VerifyURL(Utility.java:106)] - Actual URL: https://automationexercise.com/login
+[INFO] 14-04-2024 19:29:11 [main] [Utilities.Utility.VerifyURL(Utility.java:107)] - Expected URL: https://automationexercise.com/login

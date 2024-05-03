@@ -1,0 +1,8 @@
+[INFO] 16-04-2024 02:02:19 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:28)] - Browser is opened: chrome
+[INFO] 16-04-2024 02:02:25 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 16-04-2024 02:02:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 16-04-2024 02:02:29 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:70)] - size of products: 34
+[INFO] 16-04-2024 02:02:29 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:73)] - random genearte is :13
+[INFO] 16-04-2024 02:02:30 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:85)] - selected product number: Printed Off Shoulder Top - White
+[INFO] 16-04-2024 02:02:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[13]
+[INFO] 16-04-2024 02:02:38 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:94)] - name of product in detail product page: Printed Off Shoulder Top - White

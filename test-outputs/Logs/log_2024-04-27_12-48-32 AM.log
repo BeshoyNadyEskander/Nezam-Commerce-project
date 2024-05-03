@@ -1,0 +1,49 @@
+[INFO] 27-04-2024 00:48:33 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 27-04-2024 00:49:09 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 00:49:56 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 00:49:56 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 
+[INFO] 27-04-2024 00:50:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 27-04-2024 00:50:42 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Blue Top
+[INFO] 27-04-2024 00:50:42 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Men Tshirt
+[INFO] 27-04-2024 00:50:42 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Dress
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Stylish Dress
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Winter Top
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Summer White Top
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Madame Top For Women
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Fancy Green Top
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeves Printed Top - White
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Half Sleeves Top Schiffli Detailing - Pink
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Frozen Tops For Kids
+[INFO] 27-04-2024 00:50:43 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Full Sleeves Top Cherry - Pink
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Printed Off Shoulder Top - White
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeves Top and Short - Blue & Pink
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Little Girls Mr. Panda Shirt
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Unicorn Patch Gown - Pink
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Cotton Mull Embroidered Dress
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Blue Cotton Indie Mickey Dress
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Long Maxi Tulle Fancy Dress Up Outfits -Pink
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+[INFO] 27-04-2024 00:50:44 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Colour Blocked Shirt – Sky Blue
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Pure Cotton V-Neck T-Shirt
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Green Side Placket Detail T-Shirt
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Premium Polo T-Shirts
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Pure Cotton Neon Green Tshirt
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Soft Stretch Jeans
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Regular Fit Straight Jeans
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Grunt Blue Slim Fit Jeans
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Rose Pink Embroidered Maxi Dress
+[INFO] 27-04-2024 00:50:45 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Cotton Silk Hand Block Print Saree
+[INFO] 27-04-2024 00:50:46 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Rust Red Linen Saree
+[INFO] 27-04-2024 00:50:46 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Beautiful Peacock Blue Cotton Linen Saree
+[INFO] 27-04-2024 00:50:46 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Lace Top For Women
+[INFO] 27-04-2024 00:50:46 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - GRAPHIC DESIGN MEN T SHIRT - BLUE
+[INFO] 27-04-2024 00:50:46 [main] [Pages.P06_searchPage.comparingSearchProducts(P06_searchPage.java:60)] - Actual Result include : 
+[INFO] 27-04-2024 00:50:54 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 27-04-2024 00:51:02 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 00:51:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[ERROR] 27-04-2024 00:51:12 [main] [Utilities.Utility.VerifyURL(Utility.java:125)] - Expected condition failed: waiting for url to be "https://automationexercise.com/products". Current url: "https://automationexercise.com/" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55391/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c46d9522d653b4acc76f8bacd2052eb

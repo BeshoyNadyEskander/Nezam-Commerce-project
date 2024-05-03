@@ -1,0 +1,20 @@
+[INFO] 14-04-2024 18:50:00 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:51)] - Browser is opened: chrome
+[INFO] 14-04-2024 18:50:09 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:53)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 18:50:10 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp started
+[INFO] 14-04-2024 18:50:16 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 14-04-2024 18:50:16 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 14-04-2024 18:50:16 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 14-04-2024 18:50:16 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 14-04-2024 18:50:17 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Gerlach Group
+[INFO] 14-04-2024 18:50:17 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: 66017 Senger Circle, Prohaskachester, OK 17462-6186 -second address: Suite 320
+[INFO] 14-04-2024 18:50:17 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 14-04-2024 18:50:17 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 14-04-2024 18:50:17 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 14-04-2024 18:50:18 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 78728
+[INFO] 14-04-2024 18:50:18 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 347-137-9593
+[INFO] 14-04-2024 18:50:24 [main] [Utilities.Utility.VerifyURL(Utility.java:106)] - Actual URL: https://automationexercise.com/delete_account
+[INFO] 14-04-2024 18:50:24 [main] [Utilities.Utility.VerifyURL(Utility.java:107)] - Expected URL: https://automationexercise.com/delete_account
+[INFO] 14-04-2024 18:50:24 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageOfDeletingIsDisplayed(P03_createdOrDeleteAccountPage.java:41)] - message of creating account: ACCOUNT DELETED!
+[INFO] 14-04-2024 18:50:26 [main] [Utilities.Utility.VerifyURL(Utility.java:106)] - Actual URL: https://automationexercise.com/
+[INFO] 14-04-2024 18:50:26 [main] [Utilities.Utility.VerifyURL(Utility.java:107)] - Expected URL: https://automationexercise.com/
+[INFO] 14-04-2024 18:50:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp passed

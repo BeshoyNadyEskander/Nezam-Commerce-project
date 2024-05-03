@@ -1,0 +1,13 @@
+[INFO] 26-04-2024 23:12:43 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 23:12:50 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 23:13:03 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 23:13:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 23:13:05 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 26-04-2024 23:13:05 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 26-04-2024 23:13:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 26-04-2024 23:13:16 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:50)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51471/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7268648bc9cab14819e408109511d952

@@ -1,0 +1,59 @@
+[INFO] 26-04-2024 21:19:28 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: edge
+[INFO] 26-04-2024 21:19:35 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 21:19:46 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[ERROR] 26-04-2024 21:19:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a href="/login">...</a> is not clickable at point (772, 40). Other element would receive the click: <iframe id="aswift_7" name="aswift_7" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240424/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=8&amp;uci=a!8" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJT0rZG_4IUDFSgBswAd5Z4Fyw" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [57d7bcce7ee2d094868701d732c7fd82, clickElement {id=f.17EA00C68206FF513392A2A09138F720.d.294EF3EB6E332B6770D500D159478F52.e.10}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49223/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (57d7bcce7ee2d094868701d732c7fd82)] -> css selector: a[href="/login"]]
+Session ID: 57d7bcce7ee2d094868701d732c7fd82
+[ERROR] 26-04-2024 21:19:57 [main] [Utilities.Utility.sendData(Utility.java:44)] - Expected condition failed: waiting for visibility of element located by By.cssSelector: input[data-qa="login-email"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49223/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57d7bcce7ee2d094868701d732c7fd82
+[ERROR] 26-04-2024 21:20:08 [main] [Utilities.Utility.sendData(Utility.java:44)] - Expected condition failed: waiting for visibility of element located by By.cssSelector: input[data-qa="login-password"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49223/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57d7bcce7ee2d094868701d732c7fd82
+[ERROR] 26-04-2024 21:20:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: button[data-qa="login-button"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49223}, msedge: {msedgedriverVersion: 124.0.2478.51 (e23a9b7d0a14..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49223/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57d7bcce7ee2d094868701d732c7fd82
+[ERROR] 26-04-2024 21:20:23 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:50)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-04-2024 21:20:25 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: edge
+[INFO] 26-04-2024 21:20:33 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 21:20:43 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 21:20:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 21:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: tes@example.com
+[INFO] 26-04-2024 21:20:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 12345623
+[INFO] 26-04-2024 21:20:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 26-04-2024 21:20:52 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 21:20:52 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 21:20:53 [main] [Pages.P04_LoginPage.verifyErrorMessageOfInvalidLoginIsDisplayed(P04_LoginPage.java:63)] - Error Message is:Your email or password is incorrect!
+[INFO] 26-04-2024 21:20:53 [main] [Pages.P04_LoginPage.getErrorMessageOfInvalidDataLogin(P04_LoginPage.java:56)] - Error Message is displayed:true
+[INFO] 26-04-2024 21:20:55 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: edge
+[INFO] 26-04-2024 21:21:02 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 21:21:20 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[ERROR] 26-04-2024 21:21:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/login"] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 26-04-2024 21:21:31 [main] [Utilities.Utility.sendData(Utility.java:44)] - Expected condition failed: waiting for visibility of element located by By.cssSelector: input[data-qa="login-email"] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 26-04-2024 21:21:36 [main] [Utilities.Utility.sendData(Utility.java:44)] - Expected condition failed: waiting for visibility of element located by By.cssSelector: input[data-qa="login-password"] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 26-04-2024 21:21:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: button[data-qa="login-button"] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 26-04-2024 21:21:46 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/delete_account"] (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 26-04-2024 21:21:51 [main] [Utilities.Utility.VerifyURL(Utility.java:125)] - Expected condition failed: waiting for url to be "https://automationexercise.com/delete_account". Current url: "" (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-04-2024 21:21:53 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: edge
+[INFO] 26-04-2024 21:21:59 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 21:22:00 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 21:22:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 21:22:13 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 21:22:13 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 21:22:13 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:32)] - title is displayed:Login to your account
+[INFO] 26-04-2024 21:22:13 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:25)] - title is displayed:true

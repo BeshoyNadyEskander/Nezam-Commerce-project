@@ -1,0 +1,2 @@
+[INFO] 13-04-2024 23:38:26 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:25)] - Browser is opened: chrome
+[INFO] 13-04-2024 23:38:30 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:27)] - page is redirected to base URL: https://automationexercise.com/

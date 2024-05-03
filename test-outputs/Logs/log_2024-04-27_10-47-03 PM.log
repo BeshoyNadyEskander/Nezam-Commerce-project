@@ -1,0 +1,285 @@
+[INFO] 27-04-2024 22:47:03 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 27-04-2024 22:47:16 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 22:47:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 22:47:23 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:185)] - size of products: 34
+[INFO] 27-04-2024 22:47:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 27-04-2024 22:47:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[ERROR] 27-04-2024 22:47:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="3" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 58). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="4" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 511). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.69}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="5" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 511). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.70}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="6" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 16). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="7" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.72}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="8" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 388). Other element would receive the click: <div class="modal-content">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="11" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 2). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="12" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="13" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 2). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="14" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="15" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="16" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 13). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="18" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="19" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 497). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="20" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 16). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.82}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:44 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="21" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 511). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.83}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:46 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="22" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 407). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.84}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="23" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 40). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="24" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 437). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:51 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="28" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 17). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.87}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="29" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.88}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="30" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 429). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.89}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:55 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="31" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 17). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:56 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="33" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 511). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:57 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="35" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 450). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:47:59 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="37" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 16). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:48:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="38" class="btn btn-default add-to-cart">...</a> is not clickable at point (477, 511). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:48:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="39" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 472). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.95}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:48:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="40" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 17). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.96}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:48:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="41" class="btn btn-default add-to-cart">...</a> is not clickable at point (765, 512). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.97}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06
+[ERROR] 27-04-2024 22:48:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - element click intercepted: Element <a data-product-id="42" class="btn btn-default add-to-cart">...</a> is not clickable at point (1052, 16). Other element would receive the click: <div id="cartModal" class="modal show">...</div>
+  (Session info: chrome=123.0.6312.124)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d83441ac5d0f87b8b7c2407fd7412a06, clickElement {id=f.44AF98F33981E87F563B56C1815914FB.d.3AAEC20977DB737D3883C275985ACB1E.e.98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d83441ac5d0f87b8b7c2407fd7412a06)] -> xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]]
+Session ID: d83441ac5d0f87b8b7c2407fd7412a06

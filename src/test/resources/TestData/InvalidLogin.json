@@ -1,0 +1,6 @@
+{
+  "InValidEmail": "tes@example.com",
+  "ValidPassword": "12345623",
+  "MessageOfInvalidLogin": "Your email or password is incorrect!"
+
+}

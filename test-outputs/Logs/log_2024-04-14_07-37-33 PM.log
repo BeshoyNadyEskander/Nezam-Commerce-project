@@ -1,0 +1,5 @@
+[INFO] 14-04-2024 19:37:34 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:28)] - Browser is opened: chrome
+[INFO] 14-04-2024 19:37:39 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 19:37:42 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:21)] - title is displayed:true
+[INFO] 14-04-2024 19:37:42 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:28)] - title is displayed:true
+[INFO] 14-04-2024 19:37:42 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:21)] - title is displayed:true

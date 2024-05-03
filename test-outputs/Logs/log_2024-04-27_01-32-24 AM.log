@@ -1,0 +1,11 @@
+[INFO] 27-04-2024 01:32:24 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 27-04-2024 01:32:38 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 01:32:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 01:32:46 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: tshirt
+[INFO] 27-04-2024 01:32:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 27-04-2024 01:32:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - men tshirt
+[INFO] 27-04-2024 01:32:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - pure cotton v-neck t-shirt
+[INFO] 27-04-2024 01:32:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - green side placket detail t-shirt
+[INFO] 27-04-2024 01:32:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - premium polo t-shirts
+[INFO] 27-04-2024 01:32:49 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - pure cotton neon green tshirt
+[INFO] 27-04-2024 01:32:49 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:41)] - graphic design men t shirt - blue

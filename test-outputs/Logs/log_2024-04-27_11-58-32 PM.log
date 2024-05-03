@@ -1,0 +1,254 @@
+[INFO] 27-04-2024 23:58:32 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - Browser is opened: chrome
+[INFO] 27-04-2024 23:58:43 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:32)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 23:59:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 23:59:42 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:187)] - size of products: 34
+[ERROR] 27-04-2024 23:59:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[0] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[INFO] 27-04-2024 23:59:52 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[ERROR] 28-04-2024 00:00:00 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:215)] - Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()="Your product has been added to cart."] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[ERROR] 28-04-2024 00:00:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-dismiss="modal"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[INFO] 28-04-2024 00:00:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 28-04-2024 00:00:06 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 28-04-2024 00:00:07 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 28-04-2024 00:00:08 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]
+[INFO] 28-04-2024 00:00:09 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]
+[INFO] 28-04-2024 00:00:10 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]
+[INFO] 28-04-2024 00:00:11 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]
+[INFO] 28-04-2024 00:00:11 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]
+[INFO] 28-04-2024 00:00:12 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]
+[INFO] 28-04-2024 00:00:13 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]
+[INFO] 28-04-2024 00:00:14 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]
+[INFO] 28-04-2024 00:00:15 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]
+[INFO] 28-04-2024 00:00:16 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]
+[INFO] 28-04-2024 00:00:17 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]
+[INFO] 28-04-2024 00:00:17 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]
+[INFO] 28-04-2024 00:00:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]
+[INFO] 28-04-2024 00:00:19 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]
+[INFO] 28-04-2024 00:00:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]
+[INFO] 28-04-2024 00:00:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]
+[INFO] 28-04-2024 00:00:22 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]
+[INFO] 28-04-2024 00:00:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]
+[INFO] 28-04-2024 00:00:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]
+[INFO] 28-04-2024 00:00:24 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]
+[INFO] 28-04-2024 00:00:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]
+[INFO] 28-04-2024 00:00:26 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]
+[INFO] 28-04-2024 00:00:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]
+[INFO] 28-04-2024 00:00:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]
+[INFO] 28-04-2024 00:00:29 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]
+[INFO] 28-04-2024 00:00:30 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]
+[INFO] 28-04-2024 00:00:30 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]
+[INFO] 28-04-2024 00:00:31 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]
+[INFO] 28-04-2024 00:00:32 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]
+[INFO] 28-04-2024 00:00:33 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]
+[INFO] 28-04-2024 00:00:34 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[34]
+[INFO] 28-04-2024 00:00:35 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:00:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:00:36 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:187)] - size of products: 34
+[ERROR] 28-04-2024 00:00:46 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[0] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[INFO] 28-04-2024 00:00:46 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[ERROR] 28-04-2024 00:00:54 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:215)] - Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()="Your product has been added to cart."] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[ERROR] 28-04-2024 00:00:59 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-dismiss="modal"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e
+[INFO] 28-04-2024 00:00:59 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 28-04-2024 00:00:59 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 28-04-2024 00:01:01 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 28-04-2024 00:01:02 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]
+[INFO] 28-04-2024 00:01:02 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]
+[INFO] 28-04-2024 00:01:04 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]
+[INFO] 28-04-2024 00:01:04 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]
+[INFO] 28-04-2024 00:01:05 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]
+[INFO] 28-04-2024 00:01:06 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]
+[INFO] 28-04-2024 00:01:07 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]
+[INFO] 28-04-2024 00:01:08 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]
+[INFO] 28-04-2024 00:01:09 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]
+[INFO] 28-04-2024 00:01:10 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]
+[INFO] 28-04-2024 00:01:10 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]
+[INFO] 28-04-2024 00:01:11 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]
+[INFO] 28-04-2024 00:01:12 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]
+[INFO] 28-04-2024 00:01:13 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]
+[INFO] 28-04-2024 00:01:14 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]
+[INFO] 28-04-2024 00:01:15 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]
+[INFO] 28-04-2024 00:01:16 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]
+[INFO] 28-04-2024 00:01:16 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]
+[INFO] 28-04-2024 00:01:17 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]
+[INFO] 28-04-2024 00:01:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]
+[INFO] 28-04-2024 00:01:19 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]
+[INFO] 28-04-2024 00:01:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]
+[INFO] 28-04-2024 00:01:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]
+[INFO] 28-04-2024 00:01:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]
+[INFO] 28-04-2024 00:01:22 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]
+[INFO] 28-04-2024 00:01:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]
+[INFO] 28-04-2024 00:01:24 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]
+[INFO] 28-04-2024 00:01:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]
+[INFO] 28-04-2024 00:01:26 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]
+[INFO] 28-04-2024 00:01:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]
+[INFO] 28-04-2024 00:01:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[34]
+[INFO] 28-04-2024 00:01:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[INFO] 28-04-2024 00:01:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:01:29 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:212)] - product is added successfully
+[ERROR] 28-04-2024 00:01:38 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:215)] - Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()="Your product has been added to cart."] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53099}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53099/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320b240cfd48ceae170672dd36dfd5e

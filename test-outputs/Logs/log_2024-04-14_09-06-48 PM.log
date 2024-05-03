@@ -1,0 +1,7 @@
+[INFO] 14-04-2024 21:06:49 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:36)] - Browser is opened: chrome
+[INFO] 14-04-2024 21:06:55 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:38)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 21:06:57 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 14-04-2024 21:06:58 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 14-04-2024 21:06:58 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 14-04-2024 21:07:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 14-04-2024 21:07:03 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:43)] - user name is: Beshoy Nady Kamel

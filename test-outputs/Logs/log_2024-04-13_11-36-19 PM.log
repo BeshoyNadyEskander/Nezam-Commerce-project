@@ -1,0 +1,4 @@
+[INFO] 13-04-2024 23:36:20 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:25)] - Browser is opened: chrome
+[INFO] 13-04-2024 23:36:24 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:27)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-04-2024 23:36:25 [main] [Tests.TC01_HomeTestCase.verifyingOnHomePageUrlTC(TC01_HomeTestCase.java:43)] - Actual Result: https://automationexercise.com/
+[INFO] 13-04-2024 23:36:25 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:122)] - button is displayed on DOM

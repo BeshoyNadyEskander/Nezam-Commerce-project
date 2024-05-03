@@ -1,0 +1,106 @@
+[INFO] 28-04-2024 00:09:10 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - Browser is opened: chrome
+[INFO] 28-04-2024 00:10:07 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:32)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 28-04-2024 00:10:58 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 28-04-2024 00:10:58 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:203)] - size of products: 34
+[INFO] 28-04-2024 00:10:59 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 28-04-2024 00:10:59 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 28-04-2024 00:11:00 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 28-04-2024 00:11:01 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]
+[INFO] 28-04-2024 00:11:02 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]
+[INFO] 28-04-2024 00:11:03 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]
+[INFO] 28-04-2024 00:11:04 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]
+[INFO] 28-04-2024 00:11:05 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]
+[INFO] 28-04-2024 00:11:06 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]
+[INFO] 28-04-2024 00:11:06 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:07 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]
+[INFO] 28-04-2024 00:11:07 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]
+[INFO] 28-04-2024 00:11:08 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]
+[INFO] 28-04-2024 00:11:09 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]
+[INFO] 28-04-2024 00:11:10 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]
+[INFO] 28-04-2024 00:11:11 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]
+[INFO] 28-04-2024 00:11:12 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]
+[INFO] 28-04-2024 00:11:13 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]
+[INFO] 28-04-2024 00:11:13 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]
+[INFO] 28-04-2024 00:11:14 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]
+[INFO] 28-04-2024 00:11:15 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]
+[INFO] 28-04-2024 00:11:16 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]
+[INFO] 28-04-2024 00:11:17 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]
+[INFO] 28-04-2024 00:11:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]
+[INFO] 28-04-2024 00:11:19 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]
+[INFO] 28-04-2024 00:11:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]
+[INFO] 28-04-2024 00:11:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]
+[INFO] 28-04-2024 00:11:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]
+[INFO] 28-04-2024 00:11:22 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]
+[INFO] 28-04-2024 00:11:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]
+[INFO] 28-04-2024 00:11:24 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]
+[INFO] 28-04-2024 00:11:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]
+[INFO] 28-04-2024 00:11:26 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]
+[INFO] 28-04-2024 00:11:26 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]
+[INFO] 28-04-2024 00:11:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 28-04-2024 00:11:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[34]
+[INFO] 28-04-2024 00:11:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:191)] - product is added successfully
+[INFO] 28-04-2024 00:11:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]

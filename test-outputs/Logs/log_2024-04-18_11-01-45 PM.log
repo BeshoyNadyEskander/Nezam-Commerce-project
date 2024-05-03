@@ -1,0 +1,10 @@
+[INFO] 18-04-2024 23:01:45 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:28)] - Browser is opened: chrome
+[INFO] 18-04-2024 23:02:00 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 18-04-2024 23:02:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 18-04-2024 23:02:16 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:76)] - size of products: 34
+[INFO] 18-04-2024 23:02:16 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:79)] - random genearte is :17
+[INFO] 18-04-2024 23:02:17 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:91)] - selected product number: Cotton Mull Embroidered Dress
+[INFO] 18-04-2024 23:02:17 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:96)] - selected product price: Rs. 1190
+[INFO] 18-04-2024 23:02:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[17]
+[INFO] 18-04-2024 23:02:19 [main] [Pages.P05_ProductsPage.getDetailProductPrice(P05_ProductsPage.java:133)] - price of product: Rs. 1190
+Quantity: Add to cart

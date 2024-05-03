@@ -1,0 +1,13 @@
+[INFO] 14-04-2024 20:11:35 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:33)] - Browser is opened: chrome
+[INFO] 14-04-2024 20:11:40 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:35)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 20:11:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 14-04-2024 20:11:43 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 14-04-2024 20:11:43 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 14-04-2024 20:11:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 14-04-2024 20:11:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 14-04-2024 20:11:49 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/delete_account
+[INFO] 14-04-2024 20:11:49 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/delete_account
+[INFO] 14-04-2024 20:11:49 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageOfDeletingIsDisplayed(P03_createdOrDeleteAccountPage.java:41)] - message of creating account: ACCOUNT DELETED!
+[INFO] 14-04-2024 20:11:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 14-04-2024 20:11:52 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 14-04-2024 20:11:52 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/

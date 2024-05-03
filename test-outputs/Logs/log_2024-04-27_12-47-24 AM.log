@@ -1,0 +1,9 @@
+[INFO] 27-04-2024 00:47:24 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 27-04-2024 00:47:38 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 00:47:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 00:47:45 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: sleeveless
+[INFO] 27-04-2024 00:47:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 27-04-2024 00:47:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Dress
+[INFO] 27-04-2024 00:47:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Unicorn Patch Gown - Pink
+[INFO] 27-04-2024 00:47:48 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+[INFO] 27-04-2024 00:47:48 [main] [Pages.P06_searchPage.comparingSearchProducts(P06_searchPage.java:60)] - Actual Result include : sleeveless

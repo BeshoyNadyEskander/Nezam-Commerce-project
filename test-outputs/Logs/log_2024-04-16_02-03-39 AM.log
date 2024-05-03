@@ -1,0 +1,8 @@
+[INFO] 16-04-2024 02:03:39 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:28)] - Browser is opened: chrome
+[INFO] 16-04-2024 02:03:46 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 16-04-2024 02:03:54 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 16-04-2024 02:03:54 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:70)] - size of products: 34
+[INFO] 16-04-2024 02:03:54 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:73)] - random genearte is :14
+[INFO] 16-04-2024 02:03:55 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:85)] - selected product number: Sleeves Top and Short - Blue & Pink
+[INFO] 16-04-2024 02:03:55 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[14]
+[INFO] 16-04-2024 02:04:02 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:94)] - name of product in detail product page: Sleeves Top and Short - Blue & Pink

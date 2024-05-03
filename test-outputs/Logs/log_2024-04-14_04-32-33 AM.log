@@ -1,0 +1,18 @@
+[INFO] 14-04-2024 04:32:33 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - Browser is opened: chrome
+[INFO] 14-04-2024 04:32:38 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:56)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 04:32:39 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 14-04-2024 04:32:45 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:94)] - Date of Birth is: 3-June-1996
+[INFO] 14-04-2024 04:32:45 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:101)] - checkboxes are selected
+[INFO] 14-04-2024 04:32:45 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:107)] - first name: Beshoy
+[INFO] 14-04-2024 04:32:45 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:113)] - last name: Nady
+[INFO] 14-04-2024 04:32:46 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:120)] - company name: Emard, Hickle and Heidenreich
+[INFO] 14-04-2024 04:32:47 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:127)] - first address: 3261 Upton Canyon, Lake Effietown, ND 64066 -second address: Suite 466
+[INFO] 14-04-2024 04:32:47 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:133)] - country: United States
+[INFO] 14-04-2024 04:32:47 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:158)] - state: US
+[INFO] 14-04-2024 04:32:47 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:140)] - city: Miami
+[INFO] 14-04-2024 04:32:48 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:146)] - zipcode: 45012
+[INFO] 14-04-2024 04:32:48 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:152)] - phone: 834.419.0442 x10864
+[INFO] 14-04-2024 04:32:57 [main] [Utilities.Utility.VerifyURL(Utility.java:106)] - Actual URL: https://automationexercise.com/
+[INFO] 14-04-2024 04:32:57 [main] [Utilities.Utility.VerifyURL(Utility.java:107)] - Expected URL: https://automationexercise.com/
+[INFO] 14-04-2024 04:32:57 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:35)] - user name is: Beshoy Nady
+[INFO] 14-04-2024 04:32:57 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameIsLoggedAfterSignUp passed

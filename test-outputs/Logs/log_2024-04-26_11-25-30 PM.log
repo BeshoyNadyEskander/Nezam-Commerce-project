@@ -1,0 +1,11 @@
+[INFO] 26-04-2024 23:25:30 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 26-04-2024 23:25:38 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 26-04-2024 23:25:51 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 26-04-2024 23:25:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 26-04-2024 23:25:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: tes@example.com
+[INFO] 26-04-2024 23:25:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 12345623
+[INFO] 26-04-2024 23:25:54 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 26-04-2024 23:25:54 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 26-04-2024 23:25:54 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 26-04-2024 23:25:54 [main] [Pages.P04_LoginPage.verifyErrorMessageOfInvalidLoginIsDisplayed(P04_LoginPage.java:63)] - Error Message is:Your email or password is incorrect!
+[INFO] 26-04-2024 23:25:54 [main] [Pages.P04_LoginPage.getErrorMessageOfInvalidDataLogin(P04_LoginPage.java:56)] - Error Message is displayed:true

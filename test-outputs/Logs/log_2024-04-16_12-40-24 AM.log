@@ -1,0 +1,40 @@
+[INFO] 16-04-2024 00:40:24 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:28)] - Browser is opened: chrome
+[INFO] 16-04-2024 00:40:33 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/products
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/products
+[INFO] 16-04-2024 00:41:18 [main] [Pages.P05_ProductsPage.verifyOnTitleOfAllProductsIsDisplayed(P05_ProductsPage.java:24)] - Title products page is: ALL PRODUCTS
+[INFO] 16-04-2024 00:41:18 [main] [Pages.P05_ProductsPage.verifyOnAllProductsIsVisable(P05_ProductsPage.java:35)] - size of product: 34
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:18 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:19 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 16-04-2024 00:41:20 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM

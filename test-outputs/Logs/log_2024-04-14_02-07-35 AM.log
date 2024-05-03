@@ -1,0 +1,7 @@
+[INFO] 14-04-2024 02:07:36 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:38)] - Browser is opened: chrome
+[INFO] 14-04-2024 02:07:40 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 02:07:40 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case signupSteps started
+[INFO] 14-04-2024 02:07:45 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:79)] - Day is: 3
+[INFO] 14-04-2024 02:07:45 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:81)] - Month is: June
+[INFO] 14-04-2024 02:07:46 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:83)] - year is: 1996
+[INFO] 14-04-2024 02:07:46 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case signupSteps passed

@@ -1,0 +1,13 @@
+[INFO] 21-04-2024 00:34:56 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 21-04-2024 00:35:33 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 21-04-2024 00:36:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 21-04-2024 00:36:26 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:77)] - size of products: 34
+[INFO] 21-04-2024 00:36:26 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:80)] - random genearte is :18
+[INFO] 21-04-2024 00:36:26 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:90)] - selected product number: Blue Cotton Indie Mickey Dress
+[INFO] 21-04-2024 00:36:26 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:95)] - selected product price: Rs. 1530
+[INFO] 21-04-2024 00:36:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[18]
+[INFO] 21-04-2024 00:36:31 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:102)] - name of product in detail product page: Blue Cotton Indie Mickey Dress
+[INFO] 21-04-2024 00:36:31 [main] [Pages.P05_ProductsPage.getCategory(P05_ProductsPage.java:111)] - category details: Category: Kids > Dress
+[INFO] 21-04-2024 00:36:31 [main] [Pages.P05_ProductsPage.getDetailProductPrice(P05_ProductsPage.java:129)] - price of product: Rs. 1530
+Quantity: Add to cart
+[INFO] 21-04-2024 00:36:31 [main] [Pages.P05_ProductsPage.verifyOnConditionProductIsDisplayed(P05_ProductsPage.java:167)] - condition is displayed: true

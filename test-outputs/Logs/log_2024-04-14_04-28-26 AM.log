@@ -1,0 +1,27 @@
+[INFO] 14-04-2024 04:28:27 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - Browser is opened: chrome
+[INFO] 14-04-2024 04:28:31 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:56)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 14-04-2024 04:28:32 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 14-04-2024 04:28:41 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:94)] - Date of Birth is: 3-June-1996
+[INFO] 14-04-2024 04:28:41 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:101)] - checkboxes are selected
+[INFO] 14-04-2024 04:28:41 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:107)] - first name: Beshoy
+[INFO] 14-04-2024 04:28:41 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:113)] - last name: Nady
+[INFO] 14-04-2024 04:28:42 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:120)] - company name: Douglas and Sons
+[INFO] 14-04-2024 04:28:42 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:127)] - first address: Apt. 793 714 Beer Square, East Mohammedhaven, SC 84124-6607 -second address: Apt. 465
+[INFO] 14-04-2024 04:28:42 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:133)] - country: United States
+[INFO] 14-04-2024 04:28:42 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:158)] - state: US
+[INFO] 14-04-2024 04:28:43 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:140)] - city: Miami
+[INFO] 14-04-2024 04:28:43 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:146)] - zipcode: 29994
+[INFO] 14-04-2024 04:28:43 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:152)] - phone: (595) 398-7780
+[ERROR] 14-04-2024 04:28:51 [main] [Utilities.Utility.VerifyURL(Utility.java:110)] - Expected condition failed: waiting for url to be "https://automationexercise.com/". Current url: "https://automationexercise.com/account_created#google_vignette" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63458/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b631a4e28ab7f1b51ca8ce6fb7855cc8
+[ERROR] 14-04-2024 04:29:02 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:40)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.122, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63458/devtoo..., se:cdpVersion: 123.0.6312.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b631a4e28ab7f1b51ca8ce6fb7855cc8
+[INFO] 14-04-2024 04:29:20 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnUserNameIsLoggedAfterSignUp failed

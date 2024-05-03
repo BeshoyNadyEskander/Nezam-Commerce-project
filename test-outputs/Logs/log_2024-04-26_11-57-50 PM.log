@@ -1,0 +1,2 @@
+[INFO] 26-04-2024 23:57:50 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 26-04-2024 23:58:07 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/

@@ -1,0 +1,39 @@
+[INFO] 27-04-2024 23:46:48 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 27-04-2024 23:47:02 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 27-04-2024 23:47:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 27-04-2024 23:47:08 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 
+[INFO] 27-04-2024 23:47:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - blue top
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - men tshirt
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - sleeveless dress
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - stylish dress
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - winter top
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - summer white top
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - madame top for women
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - fancy green top
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - sleeves printed top - white
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - half sleeves top schiffli detailing - pink
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - frozen tops for kids
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - full sleeves top cherry - pink
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - printed off shoulder top - white
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - sleeves top and short - blue & pink
+[INFO] 27-04-2024 23:47:13 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - little girls mr. panda shirt
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - sleeveless unicorn patch gown - pink
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - cotton mull embroidered dress
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - blue cotton indie mickey dress
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - long maxi tulle fancy dress up outfits -pink
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - sleeveless unicorn print fit & flare net dress - multi
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - colour blocked shirt – sky blue
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - pure cotton v-neck t-shirt
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - green side placket detail t-shirt
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - premium polo t-shirts
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - pure cotton neon green tshirt
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - soft stretch jeans
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - regular fit straight jeans
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - grunt blue slim fit jeans
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - rose pink embroidered maxi dress
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - cotton silk hand block print saree
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - rust red linen saree
+[INFO] 27-04-2024 23:47:14 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - beautiful peacock blue cotton linen saree
+[INFO] 27-04-2024 23:47:15 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - lace top for women
+[INFO] 27-04-2024 23:47:15 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:37)] - graphic design men t shirt - blue

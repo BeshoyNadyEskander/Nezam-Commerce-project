@@ -1,0 +1,14 @@
+{
+  "newUserSignUp":"New User Signup!",
+  "validName": "Beshoy Nady",
+  "validEmail": "Test457@example.com" ,
+  "ValidPassword": "123456",
+  "Day": "3",
+  "Month": "June",
+  "Year": "1996",
+  "firstName": "Beshoy",
+  "LastName": "Nady",
+  "country" : "United States",
+  "city": "Miami",
+  "state": "US"
+}

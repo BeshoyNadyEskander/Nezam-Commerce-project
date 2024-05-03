@@ -1,0 +1,9 @@
+[INFO] 18-04-2024 22:06:27 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:28)] - Browser is opened: chrome
+[INFO] 18-04-2024 22:06:37 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:30)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 18-04-2024 22:07:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 18-04-2024 22:07:22 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:71)] - size of products: 34
+[INFO] 18-04-2024 22:07:22 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:74)] - random genearte is :17
+[INFO] 18-04-2024 22:07:22 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:86)] - selected product number: Cotton Mull Embroidered Dress
+[INFO] 18-04-2024 22:07:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[17]
+[INFO] 18-04-2024 22:07:24 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:95)] - name of product in detail product page: Cotton Mull Embroidered Dress
+[INFO] 18-04-2024 22:07:25 [main] [Pages.P05_ProductsPage.getCategory(P05_ProductsPage.java:105)] - category details: Category: Kids > Dress
