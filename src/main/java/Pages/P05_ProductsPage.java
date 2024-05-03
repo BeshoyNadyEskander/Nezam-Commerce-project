@@ -229,6 +229,12 @@ public boolean verifyOnConditionProductIsDisplayed()
 
     }
 
+    public P07_ViewCartPage clickOnCartIcaon()
+    {
+        Utility.clickingOnElement(driver , viewCartIcon);
+
+        return new P07_ViewCartPage(driver);
+    }
 
 
 }
