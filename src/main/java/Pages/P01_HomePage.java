@@ -61,5 +61,18 @@ public class P01_HomePage {
         return new P03_createdOrDeleteAccountPage(driver);
     }
 
+    public  P04_LoginPage clickOnLoginButton()
+    {
+        Utility.clickingOnElement(driver , loginLocator);
+        return new P04_LoginPage(driver);
+    }
+
+    public P04_LoginPage clickOnLogOutButton()
+    {
+        Utility.clickingOnElement(driver , LogoutButton);
+        return new P04_LoginPage(driver);
+    }
+
+
 
 }
