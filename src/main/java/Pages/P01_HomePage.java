@@ -23,7 +23,11 @@ public class P01_HomePage {
         this.driver =driver;
     }
 
-
+    public  P02_signupPage clickOnSignupButton()
+    {
+        Utility.clickingOnElement(driver , signupLocator);
+        return new P02_signupPage(driver);
+    }
 
 
     public boolean checkOnSignUpButtonIsDisplayed()
