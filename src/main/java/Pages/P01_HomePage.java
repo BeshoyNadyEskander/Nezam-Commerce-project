@@ -73,6 +73,11 @@ public class P01_HomePage {
         return new P04_LoginPage(driver);
     }
 
+    public P05_ProductsPage clickOnProductsButton()
+    {
+        Utility.clickingOnElement(driver,ProductsButton);
+        return new P05_ProductsPage(driver);
+    }
 
 
 }
