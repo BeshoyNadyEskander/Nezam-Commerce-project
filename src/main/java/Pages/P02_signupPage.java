@@ -160,7 +160,12 @@ public class P02_signupPage {
         return this;
     }
 
+    public P03_createdOrDeleteAccountPage clickONCreateAccount()
+    {
 
+        Utility.clickingOnElement(driver ,createAccountButton);
+        return new P03_createdOrDeleteAccountPage(driver);
+    }
 
 
 

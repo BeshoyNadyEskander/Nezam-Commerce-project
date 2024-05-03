@@ -1,0 +1,70 @@
+[INFO] 03-05-2024 18:06:14 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:06:15 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:06:23 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 03-05-2024 18:06:23 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-05-03-06-06-02PM
+[INFO] 03-05-2024 18:06:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 03-05-2024 18:06:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 03-05-2024 18:06:24 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 03-05-2024 18:06:25 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 03-05-2024 18:06:25 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 03-05-2024 18:06:25 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 03-05-2024 18:06:25 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 03-05-2024 18:06:25 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 03-05-2024 18:06:25 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 03-05-2024 18:06:26 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Franecki LLC
+[INFO] 03-05-2024 18:06:26 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Franecki LLC
+[INFO] 03-05-2024 18:06:26 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 525 922 Charles Trail, Port Ashlieville, OR 34008-5074
+[INFO] 03-05-2024 18:06:26 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 855
+[INFO] 03-05-2024 18:06:26 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Suite 525 922 Charles Trail, Port Ashlieville, OR 34008-5074 -second address: Suite 855
+[INFO] 03-05-2024 18:06:27 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 03-05-2024 18:06:27 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 03-05-2024 18:06:27 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 03-05-2024 18:06:27 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 03-05-2024 18:06:27 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 03-05-2024 18:06:27 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 62647
+[INFO] 03-05-2024 18:06:27 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 62647
+[INFO] 03-05-2024 18:06:27 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: (844) 864-5870 x434
+[INFO] 03-05-2024 18:06:27 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: (844) 864-5870 x434
+[INFO] 03-05-2024 18:06:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 03-05-2024 18:06:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 03-05-2024 18:06:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 03-05-2024 18:06:31 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/delete_account
+[INFO] 03-05-2024 18:06:31 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/delete_account
+[INFO] 03-05-2024 18:06:31 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageOfDeletingIsDisplayed(P03_createdOrDeleteAccountPage.java:41)] - message of creating account: ACCOUNT DELETED!
+[INFO] 03-05-2024 18:06:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 03-05-2024 18:06:32 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:32 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:41 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:06:42 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:06:48 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 03-05-2024 18:06:49 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-05-03-06-06-02PM
+[INFO] 03-05-2024 18:06:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 03-05-2024 18:06:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 03-05-2024 18:06:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 03-05-2024 18:06:50 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 03-05-2024 18:06:50 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 03-05-2024 18:06:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 03-05-2024 18:06:50 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 03-05-2024 18:06:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 03-05-2024 18:06:51 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 03-05-2024 18:06:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Franecki LLC
+[INFO] 03-05-2024 18:06:51 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Franecki LLC
+[INFO] 03-05-2024 18:06:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 525 922 Charles Trail, Port Ashlieville, OR 34008-5074
+[INFO] 03-05-2024 18:06:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 855
+[INFO] 03-05-2024 18:06:52 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Suite 525 922 Charles Trail, Port Ashlieville, OR 34008-5074 -second address: Suite 855
+[INFO] 03-05-2024 18:06:52 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 03-05-2024 18:06:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 03-05-2024 18:06:52 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 03-05-2024 18:06:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 03-05-2024 18:06:52 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 03-05-2024 18:06:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 62647
+[INFO] 03-05-2024 18:06:52 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 62647
+[INFO] 03-05-2024 18:06:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: (844) 864-5870 x434
+[INFO] 03-05-2024 18:06:53 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: (844) 864-5870 x434
+[INFO] 03-05-2024 18:06:54 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 03-05-2024 18:06:56 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 03-05-2024 18:06:56 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:56 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:06:56 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:41)] - user name is: Beshoy Nady

@@ -1,0 +1,19 @@
+[INFO] 03-05-2024 18:05:04 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:51)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:05:09 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:53)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:05:10 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case enterValidNameandEmailToGetAccountInformation started
+[INFO] 03-05-2024 18:05:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:05:14 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 03-05-2024 18:05:15 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-05-03-06-04-44PM
+[INFO] 03-05-2024 18:05:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 03-05-2024 18:05:15 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/signup
+[INFO] 03-05-2024 18:05:15 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/signup
+[INFO] 03-05-2024 18:05:15 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case enterValidNameandEmailToGetAccountInformation passed
+[INFO] 03-05-2024 18:05:23 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:51)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:05:27 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:53)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:05:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnAccountInformationTitleIsDisplayed started
+[INFO] 03-05-2024 18:05:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:05:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady
+[INFO] 03-05-2024 18:05:30 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com2024-05-03-06-04-44PM
+[INFO] 03-05-2024 18:05:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 03-05-2024 18:05:32 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:05:32 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnAccountInformationTitleIsDisplayed passed
