@@ -1,0 +1,51 @@
+[INFO] 03-05-2024 18:26:34 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 03-05-2024 18:26:42 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:26:56 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:27:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:27:00 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 03-05-2024 18:27:00 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 03-05-2024 18:27:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 03-05-2024 18:27:11 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:46)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50063/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa5db04a0d4e7d3e237bc39f68f42bad
+[INFO] 03-05-2024 18:27:12 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 03-05-2024 18:27:19 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:27:31 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:27:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:27:34 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: tes@example.com
+[INFO] 03-05-2024 18:27:35 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 12345623
+[INFO] 03-05-2024 18:27:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 03-05-2024 18:27:36 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 03-05-2024 18:27:36 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 03-05-2024 18:27:36 [main] [Pages.P04_LoginPage.verifyErrorMessageOfInvalidLoginIsDisplayed(P04_LoginPage.java:63)] - Error Message is:Your email or password is incorrect!
+[INFO] 03-05-2024 18:27:36 [main] [Pages.P04_LoginPage.getErrorMessageOfInvalidDataLogin(P04_LoginPage.java:56)] - Error Message is displayed:true
+[INFO] 03-05-2024 18:27:38 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 03-05-2024 18:27:43 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:28:09 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:28:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:28:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test457@example.com
+[INFO] 03-05-2024 18:28:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 03-05-2024 18:28:11 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 03-05-2024 18:28:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/delete_account"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50153/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33602a66f461aeb2666d0b27041bfbac
+[ERROR] 03-05-2024 18:28:26 [main] [Utilities.Utility.VerifyURL(Utility.java:125)] - Expected condition failed: waiting for url to be "https://automationexercise.com/delete_account". Current url: "https://automationexercise.com/login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.124, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50153/devtoo..., se:cdpVersion: 123.0.6312.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33602a66f461aeb2666d0b27041bfbac
+[INFO] 03-05-2024 18:28:37 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 03-05-2024 18:28:42 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:28:44 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:29:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 03-05-2024 18:29:21 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/login
+[INFO] 03-05-2024 18:29:21 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/login
+[INFO] 03-05-2024 18:29:21 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:32)] - title is displayed:Login to your account
+[INFO] 03-05-2024 18:29:21 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:25)] - title is displayed:true
