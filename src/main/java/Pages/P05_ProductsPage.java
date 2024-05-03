@@ -175,7 +175,11 @@ public boolean verifyOnConditionProductIsDisplayed()
     return  Utility.generalWait(driver).until(ExpectedConditions.visibilityOfElementLocated(conditionLocator)).isDisplayed();
 }
 
-
+    public P06_searchPage scrollingIntoSearchLabel()
+    {
+        Utility.scrolling(driver , searchLabel);
+        return new P06_searchPage(driver);
+    }
 
 
 

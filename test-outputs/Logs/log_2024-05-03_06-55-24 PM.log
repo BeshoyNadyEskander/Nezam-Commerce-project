@@ -1,0 +1,80 @@
+[INFO] 03-05-2024 18:55:24 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:55:31 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:55:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 03-05-2024 18:55:33 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 
+[INFO] 03-05-2024 18:55:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - blue top
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - men tshirt
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless dress
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - stylish dress
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - winter top
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - summer white top
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - madame top for women
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - fancy green top
+[INFO] 03-05-2024 18:55:36 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeves printed top - white
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - half sleeves top schiffli detailing - pink
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - frozen tops for kids
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - full sleeves top cherry - pink
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - printed off shoulder top - white
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeves top and short - blue & pink
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - little girls mr. panda shirt
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless unicorn patch gown - pink
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - cotton mull embroidered dress
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - blue cotton indie mickey dress
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - long maxi tulle fancy dress up outfits -pink
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless unicorn print fit & flare net dress - multi
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - colour blocked shirt – sky blue
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - pure cotton v-neck t-shirt
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - green side placket detail t-shirt
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - premium polo t-shirts
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - pure cotton neon green tshirt
+[INFO] 03-05-2024 18:55:37 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - soft stretch jeans
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - regular fit straight jeans
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - grunt blue slim fit jeans
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - rose pink embroidered maxi dress
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - cotton silk hand block print saree
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - rust red linen saree
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - beautiful peacock blue cotton linen saree
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - lace top for women
+[INFO] 03-05-2024 18:55:38 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - graphic design men t shirt - blue
+[INFO] 03-05-2024 18:55:45 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 03-05-2024 18:55:46 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 03-05-2024 18:55:54 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 03-05-2024 18:55:54 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/products
+[INFO] 03-05-2024 18:55:54 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/products
+[INFO] 03-05-2024 18:55:54 [main] [Pages.P05_ProductsPage.verifyOnTitleOfAllProductsIsDisplayed(P05_ProductsPage.java:46)] - Title products page is: ALL PRODUCTS
+[INFO] 03-05-2024 18:55:54 [main] [Pages.P05_ProductsPage.verifyOnAllProductsIsVisable(P05_ProductsPage.java:56)] - size of product: 34
+[INFO] 03-05-2024 18:55:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:56 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
+[INFO] 03-05-2024 18:55:57 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:142)] - button is displayed on DOM
