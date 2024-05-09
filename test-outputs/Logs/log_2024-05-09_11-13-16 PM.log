@@ -1,0 +1,31 @@
+[INFO] 09-05-2024 23:13:16 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:31)] - Browser is opened: chrome
+[INFO] 09-05-2024 23:13:30 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 09-05-2024 23:13:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 09-05-2024 23:13:37 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:202)] - size of products: 34
+[INFO] 09-05-2024 23:13:37 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:211)] - products page selected: Blue Top
+[INFO] 09-05-2024 23:13:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 09-05-2024 23:13:37 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[ERROR] 09-05-2024 23:13:46 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:193)] - Expected condition failed: waiting for visibility of element located by By.xpath: //p[text()="Your product has been added to cart."] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61787/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a81f2941fe7823fc8ac530e128217cff
+[ERROR] 09-05-2024 23:13:51 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-dismiss="modal"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61787/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a81f2941fe7823fc8ac530e128217cff
+[INFO] 09-05-2024 23:13:51 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:211)] - products page selected: Men Tshirt
+[INFO] 09-05-2024 23:13:51 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 09-05-2024 23:13:51 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 23:13:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 23:13:53 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:211)] - products page selected: Sleeveless Dress
+[INFO] 09-05-2024 23:13:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 09-05-2024 23:13:53 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 23:13:54 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 23:13:55 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 09-05-2024 23:13:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Men Tshirt
+[INFO] 09-05-2024 23:13:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Men Tshirt
+[INFO] 09-05-2024 23:14:05 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:202)] - size of products: 0

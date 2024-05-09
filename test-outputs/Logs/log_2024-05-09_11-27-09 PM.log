@@ -1,0 +1,18 @@
+[INFO] 09-05-2024 23:27:10 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:31)] - Browser is opened: chrome
+[INFO] 09-05-2024 23:27:22 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 09-05-2024 23:27:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 09-05-2024 23:27:31 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:203)] - size of products: 34
+[INFO] 09-05-2024 23:27:31 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:209)] - products page selected: Blue Top
+[INFO] 09-05-2024 23:27:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 09-05-2024 23:27:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 23:27:32 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:209)] - products page selected: Blue Top
+[INFO] 09-05-2024 23:27:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 09-05-2024 23:27:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 23:27:33 [main] [Pages.P05_ProductsPage.getProductsName(P05_ProductsPage.java:209)] - products page selected: Blue Top
+[INFO] 09-05-2024 23:27:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 09-05-2024 23:27:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 23:27:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 09-05-2024 23:27:35 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Blue Top
+[INFO] 09-05-2024 23:27:36 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Men Tshirt
+[INFO] 09-05-2024 23:27:36 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Blue Top
+[INFO] 09-05-2024 23:27:36 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name in cart page: Men Tshirt
