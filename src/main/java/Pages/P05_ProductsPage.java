@@ -13,7 +13,7 @@ import java.util.Random;
 import static Utilities.Utility.getText;
 
 public class P05_ProductsPage {
-    private final WebDriver driver;
+    private static WebDriver driver;
     private final static By TitleOfProductsLocator = By.cssSelector("h2[class=\"title text-center\"]");
     private final static By viewAllProductsLocator = By.xpath("//div[@class=\"choose\"]");
     private static By selectedProdcutName = By.xpath("//div[@class=\"productinfo text-center\"]/p");
@@ -33,6 +33,7 @@ public class P05_ProductsPage {
     static int randomProduct = 0;
     static String ProductName;
     static String price;
+    public static String getproductName = null;
     private static String successAddedProductMessage=null;
     private static List<WebElement> viewAllProductsWebList;
 
@@ -196,6 +197,15 @@ public boolean verifyOnConditionProductIsDisplayed()
 
 
     }
+
+    public String getProductsName()
+    {
+
+        return addAllProductsIntoCart().getproductName;
+
+    }
+
+
     public P05_ProductsPage addAllProductsIntoCart()
     {
         allProducts = driver.findElements(addToCartButton);
@@ -203,8 +213,12 @@ public boolean verifyOnConditionProductIsDisplayed()
 
         for (int i =1;  i<= allProducts.size(); i++) {
 
-            // hover view
-            //new Actions(driver).moveToElement(allProducts.get(i)).click().release().build().perform();
+            //get selected product name
+            //1- dynamic locator for selected name
+            By selectedProdcutName = By.xpath("(//div[@class=\"productinfo text-center\"]/p)[" + i + "]");
+            getproductName = Utility.getText(driver, selectedProdcutName);
+            LogsUtils.info("product is: " +getproductName);
+
 
             //dynamic locator
            By addToCartButtonForAllProducts = By.xpath("(//div[@class=\"productinfo text-center\"]//a[@data-product-id])["+i+"]");
@@ -214,7 +228,6 @@ public boolean verifyOnConditionProductIsDisplayed()
             successAddedProductMessage = getSuccessAddedMessage();
             //wait to continue shopping button
             Utility.clickingOnElement(driver , continueShoppingButton);
-
 
 
         }

@@ -1,0 +1,140 @@
+[INFO] 09-05-2024 21:54:57 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:31)] - Browser is opened: chrome
+[INFO] 09-05-2024 21:55:08 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 09-05-2024 21:55:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 09-05-2024 21:55:18 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:202)] - size of products: 34
+[INFO] 09-05-2024 21:55:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 09-05-2024 21:55:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 09-05-2024 21:55:19 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 09-05-2024 21:55:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]
+[INFO] 09-05-2024 21:55:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]
+[INFO] 09-05-2024 21:55:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]
+[INFO] 09-05-2024 21:55:22 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]
+[INFO] 09-05-2024 21:55:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]
+[INFO] 09-05-2024 21:55:24 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]
+[INFO] 09-05-2024 21:55:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]
+[INFO] 09-05-2024 21:55:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]
+[INFO] 09-05-2024 21:55:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]
+[INFO] 09-05-2024 21:55:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]
+[INFO] 09-05-2024 21:55:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]
+[INFO] 09-05-2024 21:55:29 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]
+[INFO] 09-05-2024 21:55:30 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]
+[INFO] 09-05-2024 21:55:31 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]
+[INFO] 09-05-2024 21:55:31 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]
+[INFO] 09-05-2024 21:55:32 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]
+[INFO] 09-05-2024 21:55:33 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]
+[INFO] 09-05-2024 21:55:34 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]
+[INFO] 09-05-2024 21:55:35 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]
+[INFO] 09-05-2024 21:55:36 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]
+[INFO] 09-05-2024 21:55:36 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]
+[INFO] 09-05-2024 21:55:37 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]
+[INFO] 09-05-2024 21:55:38 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]
+[INFO] 09-05-2024 21:55:39 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]
+[INFO] 09-05-2024 21:55:40 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]
+[INFO] 09-05-2024 21:55:41 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]
+[INFO] 09-05-2024 21:55:41 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]
+[INFO] 09-05-2024 21:55:42 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]
+[INFO] 09-05-2024 21:55:43 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:44 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:44 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]
+[INFO] 09-05-2024 21:55:44 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]
+[INFO] 09-05-2024 21:55:45 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[34]
+[INFO] 09-05-2024 21:55:45 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:190)] - product is added successfully
+[INFO] 09-05-2024 21:55:46 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 09-05-2024 21:55:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 09-05-2024 21:55:52 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Blue Top
+[INFO] 09-05-2024 21:55:52 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Men Tshirt
+[INFO] 09-05-2024 21:55:52 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Sleeveless Dress
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Stylish Dress
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Winter Top
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Summer White Top
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Madame Top For Women
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Fancy Green Top
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Sleeves Printed Top - White
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Half Sleeves Top Schiffli Detailing - Pink
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Frozen Tops For Kids
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Full Sleeves Top Cherry - Pink
+[INFO] 09-05-2024 21:55:53 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Printed Off Shoulder Top - White
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Sleeves Top and Short - Blue & Pink
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Little Girls Mr. Panda Shirt
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Sleeveless Unicorn Patch Gown - Pink
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Cotton Mull Embroidered Dress
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Blue Cotton Indie Mickey Dress
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Long Maxi Tulle Fancy Dress Up Outfits -Pink
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Colour Blocked Shirt – Sky Blue
+[INFO] 09-05-2024 21:55:54 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Pure Cotton V-Neck T-Shirt
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Green Side Placket Detail T-Shirt
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Premium Polo T-Shirts
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Pure Cotton Neon Green Tshirt
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Soft Stretch Jeans
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Regular Fit Straight Jeans
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Grunt Blue Slim Fit Jeans
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Rose Pink Embroidered Maxi Dress
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Cotton Silk Hand Block Print Saree
+[INFO] 09-05-2024 21:55:55 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Rust Red Linen Saree
+[INFO] 09-05-2024 21:55:56 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Beautiful Peacock Blue Cotton Linen Saree
+[INFO] 09-05-2024 21:55:56 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:30)] - selected products name: Lace Top For Women
