@@ -1,0 +1,8 @@
+[INFO] 11-05-2024 03:20:17 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:33)] - Browser is opened: chrome
+[INFO] 11-05-2024 03:20:40 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:35)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 03:20:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 11-05-2024 03:20:47 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:88)] - size of products: 34
+[INFO] 11-05-2024 03:20:47 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:91)] - random genearte is :19
+[INFO] 11-05-2024 03:20:47 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:101)] - selected product number: Long Maxi Tulle Fancy Dress Up Outfits -Pink
+[INFO] 11-05-2024 03:20:47 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:106)] - selected product price: Rs. 1600
+[INFO] 11-05-2024 03:20:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[19]

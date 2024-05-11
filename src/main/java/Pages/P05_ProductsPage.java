@@ -5,11 +5,13 @@ import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 import java.util.Random;
 
+import static Utilities.Utility.findWebElement;
 import static Utilities.Utility.getText;
 
 public class P05_ProductsPage {
@@ -28,6 +30,8 @@ public class P05_ProductsPage {
     private final static By continueShoppingButton = By.xpath("//button[@data-dismiss=\"modal\"]");
     private final static By successMessageAddProduct = By.xpath("//p[text()=\"Your product has been added to cart.\"]");
     private final static By viewCartIcon = By.cssSelector("a[href=\"/view_cart\"]");
+    private final static By quantityButton = By.id("quantity");
+    private final static By addIntoCart = By.cssSelector("button[class=\"btn btn-default cart\"]");
 
     private static List<WebElement> allProducts;
     static int randomProduct = 0;
@@ -205,6 +209,12 @@ public boolean verifyOnConditionProductIsDisplayed()
 
     }
 
+    public P05_ProductsPage clickOnContinueShopping()
+    {
+        Utility.clickingOnElement(driver , continueShoppingButton);
+        return this;
+    }
+
 
     public P05_ProductsPage addAllProductsIntoCart()
     {
@@ -227,7 +237,7 @@ public boolean verifyOnConditionProductIsDisplayed()
             // call get message method to get text on message is displayed for each products
             successAddedProductMessage = getSuccessAddedMessage();
             //wait to continue shopping button
-            Utility.clickingOnElement(driver , continueShoppingButton);
+            clickOnContinueShopping();
 
 
         }
@@ -242,11 +252,26 @@ public boolean verifyOnConditionProductIsDisplayed()
 
     }
 
-    public P07_ViewCartPage clickOnCartIcaon()
+    public P07_ViewCartPage clickOnCartViewIcaon()
     {
         Utility.clickingOnElement(driver , viewCartIcon);
 
         return new P07_ViewCartPage(driver);
+    }
+
+    public P05_ProductsPage addQuantityForProduct(int numOfQuantity)
+    {
+        new Actions(driver).moveToElement(findWebElement(driver,quantityButton)).perform();
+        driver.findElement(quantityButton).clear();
+        driver.findElement(quantityButton).sendKeys(String.valueOf(numOfQuantity));
+        return this;
+
+    }
+
+    public  P05_ProductsPage clickOnAddIntoCart()
+    {
+        Utility.clickingOnElement(driver , addIntoCart);
+        return this;
     }
 
 

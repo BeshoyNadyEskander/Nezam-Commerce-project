@@ -1,0 +1,15 @@
+[INFO] 11-05-2024 03:52:29 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:33)] - Browser is opened: chrome
+[INFO] 11-05-2024 03:52:43 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:35)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 03:52:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 11-05-2024 03:52:49 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 11-05-2024 03:52:49 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :13
+[INFO] 11-05-2024 03:52:50 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Printed Off Shoulder Top - White
+[INFO] 11-05-2024 03:52:50 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 315
+[INFO] 11-05-2024 03:52:50 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[13]
+[ERROR] 11-05-2024 03:52:56 [main] [Utilities.Utility.clickingOnElement(Utility.java:30)] - Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-dismiss="modal"] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51660/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3767047b0f64c223cab08fdd3ae6e79
+[INFO] 11-05-2024 03:52:57 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
