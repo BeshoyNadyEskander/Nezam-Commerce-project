@@ -1,0 +1,12 @@
+[INFO] 11-05-2024 03:55:14 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:29)] - Browser is opened: chrome
+[INFO] 11-05-2024 03:55:49 [main] [Tests.TC07_viewCartTestCases.openBrowser(TC07_viewCartTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 03:56:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 11-05-2024 03:56:02 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 11-05-2024 03:56:02 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :6
+[INFO] 11-05-2024 03:56:03 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Summer White Top
+[INFO] 11-05-2024 03:56:03 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 400
+[INFO] 11-05-2024 03:56:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[6]
+[INFO] 11-05-2024 03:56:04 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[class="btn btn-default cart"]
+[INFO] 11-05-2024 03:56:05 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 11-05-2024 03:56:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 11-05-2024 03:56:06 [main] [Pages.P07_ViewCartPage.getSelectedProductsName(P07_ViewCartPage.java:31)] - selected products name in cart page: Summer White Top

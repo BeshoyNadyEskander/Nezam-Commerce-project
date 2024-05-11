@@ -1,0 +1,13 @@
+[INFO] 11-05-2024 02:57:36 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 11-05-2024 02:57:48 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 02:57:58 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 11-05-2024 02:57:58 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:85)] - size of products: 34
+[INFO] 11-05-2024 02:57:58 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:88)] - random genearte is :5
+[INFO] 11-05-2024 02:57:58 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:98)] - selected product number: Winter Top
+[INFO] 11-05-2024 02:57:59 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:103)] - selected product price: Rs. 600
+[INFO] 11-05-2024 02:58:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[5]
+[INFO] 11-05-2024 02:58:00 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:110)] - name of product in detail product page: Winter Top
+[INFO] 11-05-2024 02:58:00 [main] [Pages.P05_ProductsPage.getCategory(P05_ProductsPage.java:119)] - category details: Category: Women > Tops
+[INFO] 11-05-2024 02:58:00 [main] [Pages.P05_ProductsPage.getDetailProductPrice(P05_ProductsPage.java:137)] - price of product: Rs. 600
+Quantity: Add to cart
+[INFO] 11-05-2024 02:58:01 [main] [Pages.P05_ProductsPage.verifyOnConditionProductIsDisplayed(P05_ProductsPage.java:175)] - condition is displayed: true

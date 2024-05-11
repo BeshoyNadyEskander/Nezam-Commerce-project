@@ -2,5 +2,6 @@
   "Tshirt": "POLO",
   "Dress": "dress",
   "Sleeveless": "Sleeveless",
-  "addedMessage": "Your product has been added to cart."
+  "addedMessage": "Your product has been added to cart.",
+  "QuantityProducts": 4
 }
