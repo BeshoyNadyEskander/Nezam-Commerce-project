@@ -1,0 +1,55 @@
+[INFO] 12-05-2024 00:35:48 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:63)] - Browser is opened: chrome
+[INFO] 12-05-2024 00:36:02 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:65)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 12-05-2024 00:36:03 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnDeleteaccountafterSubmitOrder started
+[INFO] 12-05-2024 00:36:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 12-05-2024 00:36:10 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 12-05-2024 00:36:10 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :21
+[INFO] 12-05-2024 00:36:10 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Colour Blocked Shirt – Sky Blue
+[INFO] 12-05-2024 00:36:10 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 849
+[INFO] 12-05-2024 00:36:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[21]
+[INFO] 12-05-2024 00:36:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[class="btn btn-default cart"]
+[INFO] 12-05-2024 00:36:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 12-05-2024 00:36:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:36:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:36:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: p[class="text-center"] [href="/login"]
+[INFO] 12-05-2024 00:36:15 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady2024-05-12-12-35-39AM
+[INFO] 12-05-2024 00:36:15 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test2024-05-12-12-35-39AM@example.com
+[INFO] 12-05-2024 00:36:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 12-05-2024 00:36:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 12-05-2024 00:36:16 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 12-05-2024 00:36:16 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 12-05-2024 00:36:17 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 12-05-2024 00:36:17 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 12-05-2024 00:36:17 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 12-05-2024 00:36:17 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 12-05-2024 00:36:17 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 12-05-2024 00:36:17 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Moen, Turcotte and Spencer
+[INFO] 12-05-2024 00:36:17 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Moen, Turcotte and Spencer
+[INFO] 12-05-2024 00:36:17 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 0613 Bogisich Plain, Port Ardeliamouth, IN 40111-4889
+[INFO] 12-05-2024 00:36:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 227
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: 0613 Bogisich Plain, Port Ardeliamouth, IN 40111-4889 -second address: Suite 227
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 12-05-2024 00:36:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 12-05-2024 00:36:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 12-05-2024 00:36:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 77767
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 77767
+[INFO] 12-05-2024 00:36:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 316.780.2231 x618
+[INFO] 12-05-2024 00:36:18 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 316.780.2231 x618
+[INFO] 12-05-2024 00:36:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 12-05-2024 00:36:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:36:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:36:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:36:28 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: great page
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/payment"]
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy nady kamel
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 1211-1221-1234-2201
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 05
+[INFO] 12-05-2024 00:36:29 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 2028
+[INFO] 12-05-2024 00:36:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.id: submit
+[INFO] 12-05-2024 00:36:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:36:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 12-05-2024 00:36:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:36:53 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnDeleteaccountafterSubmitOrder failed

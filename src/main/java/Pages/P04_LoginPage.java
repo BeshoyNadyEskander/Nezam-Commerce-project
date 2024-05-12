@@ -4,6 +4,7 @@ import Utilities.LogsUtils;
 import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class P04_LoginPage {
 
@@ -25,12 +26,15 @@ public class P04_LoginPage {
         LogsUtils.info("title is displayed:" + driver.findElement(login_to_account_text).isDisplayed());
         return Utility.getText(driver , login_to_account_text);
     }
-
-    public boolean verifyTitleOfLoginIsDisplayed(String title)
+        public boolean checkOnLogginNameIsEmpty()
+        {
+            return Utility.generalWait(driver).until(ExpectedConditions.invisibilityOfElementLocated(login_to_account_text));
+        }
+        public boolean verifyTitleOfLoginIsDisplayed(String title)
     {
 
-        LogsUtils.info("title is displayed:" + Utility.getText(driver , login_to_account_text) );
-        return getTitleOfLoginTOAccount().equals(title);
+            LogsUtils.info("title is displayed:" + Utility.getText(driver , login_to_account_text) );
+            return getTitleOfLoginTOAccount().equals(title);
 
     }
 

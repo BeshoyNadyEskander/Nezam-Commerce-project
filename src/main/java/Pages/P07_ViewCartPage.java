@@ -12,6 +12,7 @@ public class P07_ViewCartPage {
     private final WebDriver driver;
     private static final By selectedProducts = By.xpath("//td[@class=\"cart_description\"]//a[@href]");
     private static final By numOfQuantity = By.cssSelector("td[class=\"cart_quantity\"] [class=\"disabled\"]");
+    private static final By proceedToCheckOutButton = By.cssSelector("a[class=\"btn btn-default check_out\"]");
     private static List<WebElement> SelectedProducts;
     private String name;
 
@@ -66,6 +67,18 @@ public class P07_ViewCartPage {
         }catch (Exception e){
             LogsUtils.error(e.getMessage());
             return "list is empty";
+        }
+
+    }
+
+    public P08_checkoutPage clickOnProceedToCheckoutButton()
+    {
+        try {
+            Utility.clickingOnElement(driver , proceedToCheckOutButton);
+            return new P08_checkoutPage(driver);
+        }catch (Exception e){
+            LogsUtils.error( "didn't have items in cart list: "+ e.getMessage());
+            return null;
         }
 
     }

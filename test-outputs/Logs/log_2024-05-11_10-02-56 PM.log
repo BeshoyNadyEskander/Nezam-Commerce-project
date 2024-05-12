@@ -1,0 +1,41 @@
+[INFO] 11-05-2024 22:02:56 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:51)] - Browser is opened: chrome
+[INFO] 11-05-2024 22:04:47 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:53)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 22:04:47 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnRegisterWhileNavigatingCheckoutProcees started
+[INFO] 11-05-2024 22:06:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 11-05-2024 22:06:10 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 11-05-2024 22:06:10 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :20
+[INFO] 11-05-2024 22:06:10 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+[INFO] 11-05-2024 22:06:11 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 1100
+[INFO] 11-05-2024 22:06:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[20]
+[INFO] 11-05-2024 22:06:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[class="btn btn-default cart"]
+[INFO] 11-05-2024 22:06:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 11-05-2024 22:06:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 11-05-2024 22:06:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 11-05-2024 22:06:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: p[class="text-center"] [href="/login"]
+[INFO] 11-05-2024 22:06:16 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady2024-05-11-10-02-47PM
+[INFO] 11-05-2024 22:06:16 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test2024-05-11-10-02-47PM@example.com
+[INFO] 11-05-2024 22:06:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 11-05-2024 22:06:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 11-05-2024 22:06:17 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 11-05-2024 22:06:17 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 11-05-2024 22:06:17 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 11-05-2024 22:06:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 11-05-2024 22:06:18 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 11-05-2024 22:06:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 11-05-2024 22:06:18 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 11-05-2024 22:06:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Hudson Group
+[INFO] 11-05-2024 22:06:18 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Hudson Group
+[INFO] 11-05-2024 22:06:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Apt. 217 659 Ivan River, East Renitatown, OR 49293
+[INFO] 11-05-2024 22:06:18 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 624
+[INFO] 11-05-2024 22:06:18 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Apt. 217 659 Ivan River, East Renitatown, OR 49293 -second address: Suite 624
+[INFO] 11-05-2024 22:06:19 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 11-05-2024 22:06:19 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 11-05-2024 22:06:19 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 11-05-2024 22:06:19 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 11-05-2024 22:06:19 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 11-05-2024 22:06:19 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 08638
+[INFO] 11-05-2024 22:06:19 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 08638
+[INFO] 11-05-2024 22:06:19 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 005.876.0823
+[INFO] 11-05-2024 22:06:19 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 005.876.0823
+[INFO] 11-05-2024 22:06:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 11-05-2024 22:06:20 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnRegisterWhileNavigatingCheckoutProcees passed
