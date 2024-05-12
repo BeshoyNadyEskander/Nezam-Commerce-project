@@ -1,0 +1,55 @@
+[INFO] 12-05-2024 00:50:08 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:63)] - Browser is opened: chrome
+[INFO] 12-05-2024 00:50:09 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:65)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 12-05-2024 00:50:10 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnDeleteaccountafterSubmitOrder started
+[INFO] 12-05-2024 00:50:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 12-05-2024 00:50:34 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 12-05-2024 00:50:34 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :1
+[INFO] 12-05-2024 00:50:35 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Blue Top
+[INFO] 12-05-2024 00:50:35 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 500
+[INFO] 12-05-2024 00:50:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[1]
+[INFO] 12-05-2024 00:50:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[class="btn btn-default cart"]
+[INFO] 12-05-2024 00:50:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 12-05-2024 00:50:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:50:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:50:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: p[class="text-center"] [href="/login"]
+[INFO] 12-05-2024 00:50:38 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady2024-05-12-12-49-59AM
+[INFO] 12-05-2024 00:50:39 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test2024-05-12-12-49-59AM@example.com
+[INFO] 12-05-2024 00:50:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 12-05-2024 00:50:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 12-05-2024 00:50:40 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 12-05-2024 00:50:40 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 12-05-2024 00:50:40 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 12-05-2024 00:50:40 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 12-05-2024 00:50:40 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 12-05-2024 00:50:40 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 12-05-2024 00:50:40 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Hackett-Rowe
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Hackett-Rowe
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 937 9626 Eddie Rue, Port William, OH 28472
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Apt. 552
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Suite 937 9626 Eddie Rue, Port William, OH 28472 -second address: Apt. 552
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 12-05-2024 00:50:41 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 47171
+[INFO] 12-05-2024 00:50:41 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 47171
+[INFO] 12-05-2024 00:50:42 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 1-662-309-6867
+[INFO] 12-05-2024 00:50:42 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 1-662-309-6867
+[INFO] 12-05-2024 00:50:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 12-05-2024 00:50:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:50:50 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:50:51 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:50:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: great page
+[INFO] 12-05-2024 00:50:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/payment"]
+[INFO] 12-05-2024 00:50:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy nady kamel
+[INFO] 12-05-2024 00:50:52 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 1212-1221-1121-1234
+[INFO] 12-05-2024 00:50:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123
+[INFO] 12-05-2024 00:50:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 05
+[INFO] 12-05-2024 00:50:53 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 2028
+[INFO] 12-05-2024 00:50:55 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.id: submit
+[INFO] 12-05-2024 00:51:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:51:02 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 12-05-2024 00:51:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:51:20 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnDeleteaccountafterSubmitOrder passed

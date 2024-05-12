@@ -1,0 +1,34 @@
+[INFO] 11-05-2024 21:53:54 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 11-05-2024 21:54:06 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 11-05-2024 21:54:06 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case signupSteps started
+[INFO] 11-05-2024 21:54:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 11-05-2024 21:54:08 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady2024-05-11-09-53-39PM
+[INFO] 11-05-2024 21:54:08 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test2024-05-11-09-53-39PM@example.com
+[INFO] 11-05-2024 21:54:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 11-05-2024 21:54:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 11-05-2024 21:54:09 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 11-05-2024 21:54:09 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 11-05-2024 21:54:09 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 11-05-2024 21:54:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 11-05-2024 21:54:10 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 11-05-2024 21:54:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 11-05-2024 21:54:10 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 11-05-2024 21:54:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Reinger-Kuvalis
+[INFO] 11-05-2024 21:54:10 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Reinger-Kuvalis
+[INFO] 11-05-2024 21:54:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 468 6424 Adams Brook, South Lemuelfurt, CO 96866-9600
+[INFO] 11-05-2024 21:54:10 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Suite 561
+[INFO] 11-05-2024 21:54:10 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Suite 468 6424 Adams Brook, South Lemuelfurt, CO 96866-9600 -second address: Suite 561
+[INFO] 11-05-2024 21:54:10 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 11-05-2024 21:54:11 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 11-05-2024 21:54:11 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 11-05-2024 21:54:11 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 11-05-2024 21:54:11 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 11-05-2024 21:54:11 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 62084
+[INFO] 11-05-2024 21:54:11 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 62084
+[INFO] 11-05-2024 21:54:11 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 285-462-8850 x0103
+[INFO] 11-05-2024 21:54:11 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 285-462-8850 x0103
+[INFO] 11-05-2024 21:54:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 11-05-2024 21:54:12 [main] [Utilities.Utility.VerifyURL(Utility.java:121)] - Actual URL: https://automationexercise.com/account_created
+[INFO] 11-05-2024 21:54:12 [main] [Utilities.Utility.VerifyURL(Utility.java:122)] - Expected URL: https://automationexercise.com/account_created
+[INFO] 11-05-2024 21:54:12 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageIsDisplayed(P03_createdOrDeleteAccountPage.java:25)] - message of creating account: ACCOUNT CREATED!
+[INFO] 11-05-2024 21:54:12 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case signupSteps passed

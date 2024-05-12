@@ -17,6 +17,7 @@ public class P01_HomePage {
     private final static By deleteAccountButton = By.cssSelector("a[href=\"/delete_account\"]");
     private final static By LogoutButton = By.cssSelector("a[href=\"/logout\"]");
     private final static By ProductsButton = By.cssSelector("a[href=\"/products\"]");
+    private final static By cartButton = By.cssSelector("a[href=\"/view_cart\"]");
 
     public P01_HomePage(WebDriver driver)
     {
@@ -77,6 +78,12 @@ public class P01_HomePage {
     {
         Utility.clickingOnElement(driver,ProductsButton);
         return new P05_ProductsPage(driver);
+    }
+
+    public P07_ViewCartPage clickOnCartButtonFromHomePage()
+    {
+        Utility.clickingOnElement(driver , cartButton);
+        return new P07_ViewCartPage(driver);
     }
 
 

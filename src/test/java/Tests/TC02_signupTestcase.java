@@ -4,6 +4,7 @@ import Listeners.ITestResultListenerClass;
 import Pages.P01_HomePage;
 import Pages.P02_signupPage;
 
+import Pages.P03_createdOrDeleteAccountPage;
 import Utilities.DataUtils;
 import Utilities.LogsUtils;
 import com.github.javafaker.Faker;
@@ -26,8 +27,8 @@ import static Utilities.Utility.getTimeStamp;
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
 public class TC02_signupTestcase {
 
-    private static String VALIDUSERNAME = DataUtils.getJsonData("signup" ,"validName");
-    private static String VALIDEmail= DataUtils.getJsonData("signup" ,"validEmail")+ getTimeStamp();
+    private static String VALIDUSERNAME = DataUtils.getJsonData("signup" ,"validName")+getTimeStamp() ;
+    private static String VALIDEmail= DataUtils.getJsonData("signup" ,"validEmail")+ getTimeStamp()+ "@example.com";
     private static String VALIDPASSWORD= DataUtils.getJsonData("signup" ,"ValidPassword");
     private static String DAY= DataUtils.getJsonData("signup" ,"Day");
     private static String MONTH= DataUtils.getJsonData("signup" ,"Month");
@@ -94,6 +95,42 @@ public class TC02_signupTestcase {
         Assert.assertTrue(new P02_signupPage(getDriver()).checkOnTitleIsDisplayed());
     }
 
+
+    @Description("filling valid data for signup")
+    @Severity(SeverityLevel.CRITICAL)
+    @Owner("beshoy")
+    @Link(name = "Automation Exercise document", url = "https://automationexercise.com/signup")
+    @TmsLink("www.jira.com/zephyr/TC1")
+    @Epic("Web Panel testing")
+    @Feature("signupFeature")
+    @Story("as a guest I want to fill valid data so that guest could register ")
+    @Test
+    public static void signupSteps() throws IOException
+    {
+        new P01_HomePage(getDriver())
+                .clickOnSignupButton()
+                .enterName(VALIDUSERNAME)
+                .enterEmail(VALIDEmail)
+                .clickOnSignUpButton()
+                .clickOnGender()
+                .enterPassword(VALIDPASSWORD)
+                .enterBirthOfDate(DAY , MONTH , YEAR)
+                .selectedCheckBoxs()
+                .enterFirstName(FIRRSTNAME)
+                .enterLastName(LASTNAME)
+                .enterCompany(COMPANY)
+                .enterAddress(FIRSTADDRESS ,SECONDADDRESS)
+                .selectCountry(COUNTRY)
+                .enterState(STATE)
+                .enterCity(CITY)
+                .enterzipCode(ZIPCODE)
+                .enterPhoneNumber(PHONENUMBER)
+                .clickONCreateAccount();
+        softAssert= new SoftAssert();
+        softAssert.assertTrue(VerifyURL(getDriver() , getEnvironmentValue("environment" , "CREATEDACCOUNT_URL")));
+        softAssert.assertTrue(new P03_createdOrDeleteAccountPage(getDriver()).checkOnSuccessfullyMessageIsDisplayed());
+        softAssert.assertAll();
+    }
 
 
 

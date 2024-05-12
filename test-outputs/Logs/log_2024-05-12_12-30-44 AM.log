@@ -1,0 +1,3 @@
+[INFO] 12-05-2024 00:30:45 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:63)] - Browser is opened: chrome
+[INFO] 12-05-2024 00:30:54 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:65)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 12-05-2024 00:30:55 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnDeleteaccountafterSubmitOrder started

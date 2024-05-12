@@ -1,0 +1,61 @@
+[INFO] 12-05-2024 00:20:22 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:63)] - Browser is opened: chrome
+[INFO] 12-05-2024 00:20:32 [main] [Tests.TC08_CheckOutTestCases.openBrowser(TC08_CheckOutTestCases.java:65)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 12-05-2024 00:20:33 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnSelectedProdutsWithQuantityInCartView started
+[INFO] 12-05-2024 00:20:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 12-05-2024 00:20:39 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 12-05-2024 00:20:39 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :17
+[INFO] 12-05-2024 00:20:40 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Cotton Mull Embroidered Dress
+[INFO] 12-05-2024 00:20:40 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 1190
+[INFO] 12-05-2024 00:20:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: (//div[@class="choose"])[17]
+[INFO] 12-05-2024 00:20:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[class="btn btn-default cart"]
+[INFO] 12-05-2024 00:20:46 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 12-05-2024 00:20:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:20:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:20:47 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: p[class="text-center"] [href="/login"]
+[INFO] 12-05-2024 00:20:48 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy Nady2024-05-12-12-20-12AM
+[INFO] 12-05-2024 00:20:48 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Test2024-05-12-12-20-12AM@example.com
+[INFO] 12-05-2024 00:20:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 12-05-2024 00:20:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 12-05-2024 00:20:49 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123456
+[INFO] 12-05-2024 00:20:49 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 12-05-2024 00:20:49 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 12-05-2024 00:20:49 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy
+[INFO] 12-05-2024 00:20:49 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 12-05-2024 00:20:49 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Nady
+[INFO] 12-05-2024 00:20:49 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 12-05-2024 00:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Spencer, Denesik and Mann
+[INFO] 12-05-2024 00:20:50 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Spencer, Denesik and Mann
+[INFO] 12-05-2024 00:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Apt. 995 308 Chauncey Cliffs, Littelborough, IL 38039-5896
+[INFO] 12-05-2024 00:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Apt. 656
+[INFO] 12-05-2024 00:20:50 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Apt. 995 308 Chauncey Cliffs, Littelborough, IL 38039-5896 -second address: Apt. 656
+[INFO] 12-05-2024 00:20:50 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 12-05-2024 00:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: US
+[INFO] 12-05-2024 00:20:50 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 12-05-2024 00:20:50 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Miami
+[INFO] 12-05-2024 00:20:50 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 12-05-2024 00:20:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 99166
+[INFO] 12-05-2024 00:20:51 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 99166
+[INFO] 12-05-2024 00:20:51 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 1-010-195-6389
+[INFO] 12-05-2024 00:20:51 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 1-010-195-6389
+[INFO] 12-05-2024 00:20:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 12-05-2024 00:20:57 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:20:58 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/view_cart"]
+[INFO] 12-05-2024 00:20:59 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[class="btn btn-default check_out"]
+[INFO] 12-05-2024 00:20:59 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: great page
+[INFO] 12-05-2024 00:21:00 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/payment"]
+[INFO] 12-05-2024 00:21:00 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: Beshoy nady kamel
+[INFO] 12-05-2024 00:21:00 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 1211-1221-1234-2201
+[INFO] 12-05-2024 00:21:01 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 123
+[INFO] 12-05-2024 00:21:01 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 05
+[INFO] 12-05-2024 00:21:01 [main] [Utilities.Utility.sendData(Utility.java:41)] - sending data is: 2028
+[INFO] 12-05-2024 00:21:03 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.id: submit
+[INFO] 12-05-2024 00:21:08 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[INFO] 12-05-2024 00:21:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[href="/delete_account"]
+[INFO] 12-05-2024 00:21:09 [main] [Utilities.Utility.clickingOnElement(Utility.java:27)] - button is clickable: By.cssSelector: a[data-qa="continue-button"]
+[ERROR] 12-05-2024 00:21:19 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:37)] - Expected condition failed: waiting for visibility of element located by By.cssSelector: div[class="login-form"] h2 (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64704}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64704/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7995422a8df0761c40438025904eb705
+[INFO] 12-05-2024 00:21:40 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnSelectedProdutsWithQuantityInCartView failed
