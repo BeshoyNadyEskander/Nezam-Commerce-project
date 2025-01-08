@@ -1,0 +1,18 @@
+[INFO] 13-05-2024 04:43:14 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 13-05-2024 04:43:58 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-05-2024 04:43:58 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - size of main Category:: 3
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:116)] - random of main categories : 0
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:117)] - random of main categories : WOMEN
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:168)] - size of sub cat : 2
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:171)] - sub categories 0
+[INFO] 13-05-2024 04:43:58 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:175)] - sub categories nameTSHIRTS
+[ERROR] 13-05-2024 04:43:58 [main] [Utilities.Utility.clickingOnElement(Utility.java:31)] - javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //div[@class=\"panel-body\"]/ul)[1] /li[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class=\"panel-body\"]/ul)[1] /li[1]' is not a valid XPath expression."}
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428df10017035b1c42fc4ebadbd4dcaf, findElement {value=//div[@class="panel-body"]/ul)[1] /li[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62749/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428df10017035b1c42fc4ebadbd4dcaf
+[INFO] 13-05-2024 04:43:59 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnRandomMainCategory passed

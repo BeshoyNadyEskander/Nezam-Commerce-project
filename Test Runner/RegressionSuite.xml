@@ -6,12 +6,12 @@
     </listeners>
     <test name="Regression Test">
         <classes>
-            <class name="Tests.TC01_LoginTest"/>
-            <class name="Tests.TC02_LandingTest"/>
-            <class name="Tests.TC03_CartTest"/>
-            <class name="Tests.TC04_CheckoutTest"/>
-            <class name="Tests.TC05_OverviewTest"/>
-            <class name="Tests.TC06_FinishingOrderTest"/>
+            <class name="Tests.TC01_HomeTestCase"/>
+            <class name="Tests.TC02_signupTestcase"/>
+            <class name="Tests.TC03_CreatedOrDeletedAccountTestCase"/>
+            <class name="Tests.TC04_LoginTestCase"/>
+            <class name="Tests.TC05_ProductsTestCases"/>
+            <class name="Tests.TC06_SearchProductsTestCases"/>
         </classes>
     </test>
 </suite>

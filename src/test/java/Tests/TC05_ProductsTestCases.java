@@ -25,7 +25,12 @@ public class TC05_ProductsTestCases {
     @BeforeMethod
     public static void openBrowser() throws IOException {
 
-        setupDriver(getEnvironmentValue("environment", "Browser"));
+        // handled key browser that we can sent that by mvn command line -Dbrowser=edge
+        String browser = System.getProperty("browser") !=null ? System.getProperty("browser")
+                : getEnvironmentValue("environment", "Browser");
+        LogsUtils.info("Browser is: " + System.getProperty("browser"));
+        setupDriver(browser);
+        //setupDriver(getEnvironmentValue("environment", "Browser"));
         LogsUtils.info("Browser is opened: " + getEnvironmentValue("environment", "Browser"));
         getDriver().navigate().to(getEnvironmentValue("environment", "BASE_URL"));
         LogsUtils.info("page is redirected to base URL: " + getEnvironmentValue("environment", "BASE_URL"));

@@ -1,0 +1,8 @@
+[INFO] 13-05-2024 05:08:31 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 13-05-2024 05:08:47 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-05-2024 05:08:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 13-05-2024 05:08:48 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - size of main Category:: 3
+[INFO] 13-05-2024 05:08:48 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:116)] - random of main categories : 0
+[INFO] 13-05-2024 05:08:48 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:117)] - random of main categories : WOMEN
+[ERROR] 13-05-2024 05:09:08 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:187)] - error
+[INFO] 13-05-2024 05:09:08 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnRandomMainCategory passed
