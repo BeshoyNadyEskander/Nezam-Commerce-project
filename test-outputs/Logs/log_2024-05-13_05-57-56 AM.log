@@ -1,0 +1,9 @@
+[INFO] 13-05-2024 05:57:57 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 13-05-2024 05:58:11 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-05-2024 05:58:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - size of main Category:: 3
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:117)] - random of main categories : 2
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:118)] - random of main categories : KIDS
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:169)] - size of sub cat : 2
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:175)] - sub categories is selected number 0
+[INFO] 13-05-2024 05:58:12 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:179)] - sub categories name

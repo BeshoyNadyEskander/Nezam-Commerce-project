@@ -1,0 +1,16 @@
+[INFO] 19-06-2024 01:04:36 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 19-06-2024 01:04:37 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 19-06-2024 01:04:39 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 19-06-2024 01:04:45 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - size of main Category:: 3
+[INFO] 19-06-2024 01:04:45 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:118)] - random of main categories : 1
+[INFO] 19-06-2024 01:04:45 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:119)] - random of main categories : MEN
+[INFO] 19-06-2024 01:04:46 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:161)] - size of sub cat : 3
+[INFO] 19-06-2024 01:04:46 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:166)] - sub categories is selected number 2
+[INFO] 19-06-2024 01:04:46 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:170)] - sub categories name
+[ERROR] 19-06-2024 01:04:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:31)] - Expected condition failed: waiting for element to be clickable: By.xpath: ((//div[@class="panel-body"]/ul)[1]/li)[2] (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.112, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59674/devtoo..., se:cdpVersion: 125.0.6422.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f2542c897f62c28dd512beec511332a
+[INFO] 19-06-2024 01:04:53 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case clickOnRandomMainCategory passed

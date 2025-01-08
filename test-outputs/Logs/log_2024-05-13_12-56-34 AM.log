@@ -1,0 +1,21 @@
+[INFO] 13-05-2024 00:56:34 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 13-05-2024 00:56:35 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-05-2024 00:56:36 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:109)] - size is: 3
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - random of main categories : 1
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - random of main categories : MEN
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:109)] - size is: 3
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - random of main categories : 1
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - random of main categories : MEN
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:109)] - size is: 3
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - random of main categories : 1
+[INFO] 13-05-2024 00:56:51 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - random of main categories : MEN
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:139)] - sub categories 0
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:109)] - size is: 3
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - random of main categories : 1
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - random of main categories : MEN
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:143)] - sub categories 
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:109)] - size is: 3
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - random of main categories : 1
+[INFO] 13-05-2024 00:56:52 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:114)] - random of main categories : MEN
+[INFO] 13-05-2024 00:57:02 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case clickOnRandomMainCategory failed

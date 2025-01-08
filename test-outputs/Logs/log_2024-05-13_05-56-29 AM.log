@@ -1,0 +1,10 @@
+[INFO] 13-05-2024 05:56:29 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:38)] - Browser is opened: chrome
+[INFO] 13-05-2024 05:56:44 [main] [Tests.TC09_CategoriesTestCases.openBrowser(TC09_CategoriesTestCases.java:40)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 13-05-2024 05:56:44 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 13-05-2024 05:56:44 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:113)] - size of main Category:: 3
+[INFO] 13-05-2024 05:56:44 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:117)] - random of main categories : 1
+[INFO] 13-05-2024 05:56:45 [main] [Pages.P01_HomePage.clickOnRandomMainCategory(P01_HomePage.java:118)] - random of main categories : MEN
+[INFO] 13-05-2024 05:56:45 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:169)] - size of sub cat : 2
+[INFO] 13-05-2024 05:56:45 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:175)] - sub categories is selected number 1
+[INFO] 13-05-2024 05:56:45 [main] [Pages.P01_HomePage.selectedRandomSub(P01_HomePage.java:179)] - sub categories nameJEANS
+[INFO] 13-05-2024 05:56:45 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case clickOnRandomMainCategory failed

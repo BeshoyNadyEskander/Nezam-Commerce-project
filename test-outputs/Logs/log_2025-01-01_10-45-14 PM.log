@@ -1,0 +1,8 @@
+[INFO] 01-01-2025 22:45:15 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:33)] - Browser is opened: chrome
+[INFO] 01-01-2025 22:45:25 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:35)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 22:45:26 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyingOnHomePageUrlTC started
+[INFO] 01-01-2025 22:45:26 [main] [Tests.TC01_HomeTestCase.verifyingOnHomePageUrlTC(TC01_HomeTestCase.java:51)] - Actual Result: https://automationexercise.com/
+[INFO] 01-01-2025 22:45:26 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/
+[INFO] 01-01-2025 22:45:26 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/
+[INFO] 01-01-2025 22:45:26 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 22:45:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyingOnHomePageUrlTC passed

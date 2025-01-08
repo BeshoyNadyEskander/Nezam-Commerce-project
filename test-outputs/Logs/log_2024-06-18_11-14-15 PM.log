@@ -1,0 +1,4 @@
+[INFO] 18-06-2024 23:14:22 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case openBrowser failed
+[ERROR] 18-06-2024 23:14:22 [main] [Utilities.Utility.takeScreenShot(Utility.java:95)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null
+[INFO] 18-06-2024 23:14:26 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case clickOnRandomMainCategory started
+[INFO] 18-06-2024 23:14:26 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:16)] - Test Case clickOnRandomMainCategory skipped

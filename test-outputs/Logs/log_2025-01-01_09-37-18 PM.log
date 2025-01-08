@@ -1,0 +1,421 @@
+[INFO] 01-01-2025 21:37:21 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:33)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:37:29 [main] [Tests.TC01_HomeTestCase.openBrowser(TC01_HomeTestCase.java:35)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:37:31 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyingOnHomePageUrlTC started
+[INFO] 01-01-2025 21:37:32 [main] [Tests.TC01_HomeTestCase.verifyingOnHomePageUrlTC(TC01_HomeTestCase.java:51)] - Actual Result: https://automationexercise.com/
+[INFO] 01-01-2025 21:37:32 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:37:32 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:37:32 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:37:32 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyingOnHomePageUrlTC passed
+[INFO] 01-01-2025 21:37:40 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:37:49 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:37:49 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case enterValidNameandEmailToGetAccountInformation started
+[INFO] 01-01-2025 21:37:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:37:52 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady2025-01-01-09-36-57PM
+[INFO] 01-01-2025 21:37:52 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-09-36-57PM@example.com
+[INFO] 01-01-2025 21:37:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 01-01-2025 21:37:53 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/signup
+[INFO] 01-01-2025 21:37:53 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/signup
+[INFO] 01-01-2025 21:37:53 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case enterValidNameandEmailToGetAccountInformation passed
+[INFO] 01-01-2025 21:38:00 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:38:10 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:38:11 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case signupSteps started
+[INFO] 01-01-2025 21:38:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:38:13 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady2025-01-01-09-36-57PM
+[INFO] 01-01-2025 21:38:14 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-09-36-57PM@example.com
+[INFO] 01-01-2025 21:38:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 01-01-2025 21:38:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 01-01-2025 21:38:15 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 123456
+[INFO] 01-01-2025 21:38:15 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 01-01-2025 21:38:16 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 01-01-2025 21:38:16 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy
+[INFO] 01-01-2025 21:38:16 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 01-01-2025 21:38:16 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Nady
+[INFO] 01-01-2025 21:38:16 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 01-01-2025 21:38:16 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Rippin-Kassulke
+[INFO] 01-01-2025 21:38:16 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Rippin-Kassulke
+[INFO] 01-01-2025 21:38:17 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Suite 580 49842 Tremblay Circle, Ritchieborough, MD 42773-5804
+[INFO] 01-01-2025 21:38:17 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Apt. 241
+[INFO] 01-01-2025 21:38:17 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: Suite 580 49842 Tremblay Circle, Ritchieborough, MD 42773-5804 -second address: Apt. 241
+[INFO] 01-01-2025 21:38:17 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 01-01-2025 21:38:17 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: US
+[INFO] 01-01-2025 21:38:17 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 01-01-2025 21:38:18 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Miami
+[INFO] 01-01-2025 21:38:18 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 01-01-2025 21:38:18 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 74520
+[INFO] 01-01-2025 21:38:18 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 74520
+[INFO] 01-01-2025 21:38:18 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 1-267-440-1442 x1980
+[INFO] 01-01-2025 21:38:18 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 1-267-440-1442 x1980
+[INFO] 01-01-2025 21:38:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 01-01-2025 21:38:19 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/account_created
+[INFO] 01-01-2025 21:38:19 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/account_created
+[INFO] 01-01-2025 21:38:19 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageIsDisplayed(P03_createdOrDeleteAccountPage.java:25)] - message of creating account: ACCOUNT CREATED!
+[INFO] 01-01-2025 21:38:19 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case signupSteps passed
+[INFO] 01-01-2025 21:38:26 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:38:38 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:38:38 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnAccountInformationTitleIsDisplayed started
+[INFO] 01-01-2025 21:38:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:38:39 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady2025-01-01-09-36-57PM
+[INFO] 01-01-2025 21:38:39 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-09-36-57PM@example.com
+[INFO] 01-01-2025 21:38:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[ERROR] 01-01-2025 21:38:50 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:146)] - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.="Enter Account Information"]"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6936f4154adedbd163ad434c8e0c6216, findElement {using=xpath, value=//h2[.="Enter Account Information"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50930}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50930/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6936f4154adedbd163ad434c8e0c6216
+[INFO] 01-01-2025 21:38:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnAccountInformationTitleIsDisplayed failed
+[INFO] 01-01-2025 21:38:57 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:39:19 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:39:19 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp started
+[INFO] 01-01-2025 21:39:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:39:20 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady
+[INFO] 01-01-2025 21:39:20 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-09-36-57PM
+[INFO] 01-01-2025 21:39:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[ERROR] 01-01-2025 21:39:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:31)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: input[value="Mr"] (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50967/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3d04a9acf5937b7a6d4566ccb014730
+[ERROR] 01-01-2025 21:39:40 [main] [Utilities.Utility.sendData(Utility.java:45)] - Expected condition failed: waiting for visibility of element located by By.id: password (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50967}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50967/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3d04a9acf5937b7a6d4566ccb014730
+[INFO] 01-01-2025 21:39:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterSignUp failed
+[INFO] 01-01-2025 21:40:00 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:47)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:40:12 [main] [Tests.TC03_CreatedOrDeletedAccountTestCase.openBrowser(TC03_CreatedOrDeletedAccountTestCase.java:49)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:40:12 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 01-01-2025 21:40:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:40:37 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady
+[INFO] 01-01-2025 21:40:37 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-09-36-57PM
+[INFO] 01-01-2025 21:40:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[ERROR] 01-01-2025 21:40:48 [main] [Utilities.Utility.clickingOnElement(Utility.java:31)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: input[value="Mr"] (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51024/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bd530c08da570794a2646ec6489a3fa
+[ERROR] 01-01-2025 21:40:58 [main] [Utilities.Utility.sendData(Utility.java:45)] - Expected condition failed: waiting for visibility of element located by By.id: password (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51024/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bd530c08da570794a2646ec6489a3fa
+[INFO] 01-01-2025 21:41:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnUserNameIsLoggedAfterSignUp failed
+[INFO] 01-01-2025 21:41:11 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 01-01-2025 21:41:24 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:41:48 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:41:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnUserCouldLoginSuccessfullyWithValidData started
+[INFO] 01-01-2025 21:41:50 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:41:50 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test457@example.com
+[INFO] 01-01-2025 21:41:51 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 123456
+[INFO] 01-01-2025 21:41:52 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 01-01-2025 21:42:02 [main] [Pages.P01_HomePage.getLoggedInUserName(P01_HomePage.java:60)] - Expected condition failed: waiting for visibility of element located by By.xpath: //a//b (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51104}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51104/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe7c8ad1eb19d9395d4bb6fe54c05448
+[INFO] 01-01-2025 21:42:02 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case VerifyOnUserCouldLoginSuccessfullyWithValidData failed
+[INFO] 01-01-2025 21:42:03 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 01-01-2025 21:42:13 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:42:28 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:42:30 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnUserCouldNotLoginWithInValidData started
+[INFO] 01-01-2025 21:42:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:42:36 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: tes@example.com
+[INFO] 01-01-2025 21:42:36 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 12345623
+[INFO] 01-01-2025 21:42:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[INFO] 01-01-2025 21:42:49 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/login
+[INFO] 01-01-2025 21:42:49 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/login
+[INFO] 01-01-2025 21:42:49 [main] [Pages.P04_LoginPage.verifyErrorMessageOfInvalidLoginIsDisplayed(P04_LoginPage.java:67)] - Error Message is:Your email or password is incorrect!
+[INFO] 01-01-2025 21:42:50 [main] [Pages.P04_LoginPage.getErrorMessageOfInvalidDataLogin(P04_LoginPage.java:60)] - Error Message is displayed:true
+[INFO] 01-01-2025 21:42:51 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case VerifyOnUserCouldNotLoginWithInValidData passed
+[INFO] 01-01-2025 21:43:02 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 01-01-2025 21:43:12 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:43:34 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:43:35 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterLogin started
+[INFO] 01-01-2025 21:43:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:43:39 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test457@example.com
+[INFO] 01-01-2025 21:43:39 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 123456
+[INFO] 01-01-2025 21:43:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[data-qa="login-button"]
+[ERROR] 01-01-2025 21:43:49 [main] [Utilities.Utility.clickingOnElement(Utility.java:31)] - Expected condition failed: waiting for element to be clickable: By.cssSelector: a[href="/delete_account"] (tried for 7 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51208/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f565bb12e02793bca2ce9866f1c7032
+[ERROR] 01-01-2025 21:43:55 [main] [Utilities.Utility.VerifyURL(Utility.java:132)] - Expected condition failed: waiting for url to be "https://automationexercise.com/delete_account". Current url: "https://automationexercise.com/login" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\KINGOF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51208/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f565bb12e02793bca2ce9866f1c7032
+[INFO] 01-01-2025 21:44:05 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test Case verifyOnUserNameCouldDeleteHisAccountAfterLogin failed
+[INFO] 01-01-2025 21:44:06 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:37)] - Browser is: null
+[INFO] 01-01-2025 21:44:12 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:40)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:44:24 [main] [Tests.TC04_LoginTestCase.openBrowser(TC04_LoginTestCase.java:42)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:44:25 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnUserNameIsLoggedAfterSignUp started
+[INFO] 01-01-2025 21:44:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 21:44:28 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/login
+[INFO] 01-01-2025 21:44:28 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/login
+[INFO] 01-01-2025 21:44:28 [main] [Pages.P04_LoginPage.verifyTitleOfLoginIsDisplayed(P04_LoginPage.java:36)] - title is displayed:Login to your account
+[INFO] 01-01-2025 21:44:28 [main] [Pages.P04_LoginPage.getTitleOfLoginTOAccount(P04_LoginPage.java:26)] - title is displayed:true
+[INFO] 01-01-2025 21:44:28 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnUserNameIsLoggedAfterSignUp passed
+[INFO] 01-01-2025 21:44:37 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:44:44 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:44:44 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnSelectedRandomProductsNameMatchInDetailProducts started
+[INFO] 01-01-2025 21:44:50 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 01-01-2025 21:44:50 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:89)] - size of products: 34
+[INFO] 01-01-2025 21:44:50 [main] [Pages.P05_ProductsPage.generateRandomNumberOfProduct(P05_ProductsPage.java:92)] - random genearte is :12
+[INFO] 01-01-2025 21:44:51 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:102)] - selected product number: Full Sleeves Top Cherry - Pink
+[INFO] 01-01-2025 21:44:51 [main] [Pages.P05_ProductsPage.clickOnSelectedRandomProduct(P05_ProductsPage.java:107)] - selected product price: Rs. 679
+[INFO] 01-01-2025 21:44:51 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="choose"])[12]
+[INFO] 01-01-2025 21:44:52 [main] [Pages.P05_ProductsPage.getProductDetailName(P05_ProductsPage.java:114)] - name of product in detail product page: Full Sleeves Top Cherry - Pink
+[INFO] 01-01-2025 21:44:52 [main] [Pages.P05_ProductsPage.getCategory(P05_ProductsPage.java:123)] - category details: Category: Kids > Tops & Shirts
+[INFO] 01-01-2025 21:44:52 [main] [Pages.P05_ProductsPage.getDetailProductPrice(P05_ProductsPage.java:141)] - price of product: Rs. 679
+Quantity: Add to cart
+[INFO] 01-01-2025 21:44:53 [main] [Pages.P05_ProductsPage.verifyOnConditionProductIsDisplayed(P05_ProductsPage.java:179)] - condition is displayed: true
+[INFO] 01-01-2025 21:44:53 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case VerifyOnSelectedRandomProductsNameMatchInDetailProducts passed
+[INFO] 01-01-2025 21:44:58 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:45:03 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:45:04 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnSuccessMessageForAddAllProductsIntoCart started
+[INFO] 01-01-2025 21:45:12 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 01-01-2025 21:45:12 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:222)] - size of products: 34
+[INFO] 01-01-2025 21:45:12 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Blue Top
+[INFO] 01-01-2025 21:45:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[1]
+[INFO] 01-01-2025 21:45:13 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:13 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:13 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Men Tshirt
+[INFO] 01-01-2025 21:45:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[2]
+[INFO] 01-01-2025 21:45:14 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:14 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:14 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Sleeveless Dress
+[INFO] 01-01-2025 21:45:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[3]
+[INFO] 01-01-2025 21:45:15 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:15 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:15 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Stylish Dress
+[INFO] 01-01-2025 21:45:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[4]
+[INFO] 01-01-2025 21:45:16 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:16 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:16 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Winter Top
+[INFO] 01-01-2025 21:45:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[5]
+[INFO] 01-01-2025 21:45:17 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:17 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:17 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Summer White Top
+[INFO] 01-01-2025 21:45:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[6]
+[INFO] 01-01-2025 21:45:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:18 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Madame Top For Women
+[INFO] 01-01-2025 21:45:18 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[7]
+[INFO] 01-01-2025 21:45:18 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:19 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Fancy Green Top
+[INFO] 01-01-2025 21:45:19 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[8]
+[INFO] 01-01-2025 21:45:19 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:20 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Sleeves Printed Top - White
+[INFO] 01-01-2025 21:45:20 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[9]
+[INFO] 01-01-2025 21:45:20 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:21 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Half Sleeves Top Schiffli Detailing - Pink
+[INFO] 01-01-2025 21:45:21 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[10]
+[INFO] 01-01-2025 21:45:21 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:22 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Frozen Tops For Kids
+[INFO] 01-01-2025 21:45:22 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[11]
+[INFO] 01-01-2025 21:45:22 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:23 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Full Sleeves Top Cherry - Pink
+[INFO] 01-01-2025 21:45:23 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[12]
+[INFO] 01-01-2025 21:45:23 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:24 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Printed Off Shoulder Top - White
+[INFO] 01-01-2025 21:45:24 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[13]
+[INFO] 01-01-2025 21:45:24 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:25 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Sleeves Top and Short - Blue & Pink
+[INFO] 01-01-2025 21:45:25 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[14]
+[INFO] 01-01-2025 21:45:25 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:26 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Little Girls Mr. Panda Shirt
+[INFO] 01-01-2025 21:45:26 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[15]
+[INFO] 01-01-2025 21:45:26 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:27 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Sleeveless Unicorn Patch Gown - Pink
+[INFO] 01-01-2025 21:45:27 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[16]
+[INFO] 01-01-2025 21:45:27 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:28 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Cotton Mull Embroidered Dress
+[INFO] 01-01-2025 21:45:28 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[17]
+[INFO] 01-01-2025 21:45:28 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:29 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Blue Cotton Indie Mickey Dress
+[INFO] 01-01-2025 21:45:29 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[18]
+[INFO] 01-01-2025 21:45:29 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:30 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Long Maxi Tulle Fancy Dress Up Outfits -Pink
+[INFO] 01-01-2025 21:45:30 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[19]
+[INFO] 01-01-2025 21:45:30 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:31 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Sleeveless Unicorn Print Fit & Flare Net Dress - Multi
+[INFO] 01-01-2025 21:45:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[20]
+[INFO] 01-01-2025 21:45:31 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:32 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Colour Blocked Shirt – Sky Blue
+[INFO] 01-01-2025 21:45:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[21]
+[INFO] 01-01-2025 21:45:32 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:33 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Pure Cotton V-Neck T-Shirt
+[INFO] 01-01-2025 21:45:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[22]
+[INFO] 01-01-2025 21:45:33 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:34 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Green Side Placket Detail T-Shirt
+[INFO] 01-01-2025 21:45:34 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[23]
+[INFO] 01-01-2025 21:45:34 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:35 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Premium Polo T-Shirts
+[INFO] 01-01-2025 21:45:35 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[24]
+[INFO] 01-01-2025 21:45:35 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:36 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Pure Cotton Neon Green Tshirt
+[INFO] 01-01-2025 21:45:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[25]
+[INFO] 01-01-2025 21:45:36 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:36 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:37 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Soft Stretch Jeans
+[INFO] 01-01-2025 21:45:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[26]
+[INFO] 01-01-2025 21:45:37 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:37 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Regular Fit Straight Jeans
+[INFO] 01-01-2025 21:45:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[27]
+[INFO] 01-01-2025 21:45:38 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:38 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:38 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Grunt Blue Slim Fit Jeans
+[INFO] 01-01-2025 21:45:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[28]
+[INFO] 01-01-2025 21:45:39 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:39 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:39 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Rose Pink Embroidered Maxi Dress
+[INFO] 01-01-2025 21:45:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[29]
+[INFO] 01-01-2025 21:45:40 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:40 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Cotton Silk Hand Block Print Saree
+[INFO] 01-01-2025 21:45:40 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[30]
+[INFO] 01-01-2025 21:45:40 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:41 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Rust Red Linen Saree
+[INFO] 01-01-2025 21:45:41 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[31]
+[INFO] 01-01-2025 21:45:41 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:42 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Beautiful Peacock Blue Cotton Linen Saree
+[INFO] 01-01-2025 21:45:42 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[32]
+[INFO] 01-01-2025 21:45:42 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:43 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: Lace Top For Women
+[INFO] 01-01-2025 21:45:43 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[33]
+[INFO] 01-01-2025 21:45:43 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:44 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:44 [main] [Pages.P05_ProductsPage.addAllProductsIntoCart(P05_ProductsPage.java:230)] - product is: GRAPHIC DESIGN MEN T SHIRT - BLUE
+[INFO] 01-01-2025 21:45:44 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: (//div[@class="productinfo text-center"]//a[@data-product-id])[34]
+[INFO] 01-01-2025 21:45:44 [main] [Pages.P05_ProductsPage.getSuccessAddedMessage(P05_ProductsPage.java:195)] - product is added successfully
+[INFO] 01-01-2025 21:45:45 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.xpath: //button[@data-dismiss="modal"]
+[INFO] 01-01-2025 21:45:45 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case VerifyOnSuccessMessageForAddAllProductsIntoCart passed
+[INFO] 01-01-2025 21:45:50 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:29)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:46:04 [main] [Tests.TC05_ProductsTestCases.openBrowser(TC05_ProductsTestCases.java:31)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:46:05 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnNavigatingToProductsPage started
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/products
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/products
+[INFO] 01-01-2025 21:46:10 [main] [Pages.P05_ProductsPage.verifyOnTitleOfAllProductsIsDisplayed(P05_ProductsPage.java:51)] - Title products page is: ALL PRODUCTS
+[INFO] 01-01-2025 21:46:10 [main] [Pages.P05_ProductsPage.verifyOnAllProductsIsVisable(P05_ProductsPage.java:61)] - size of product: 34
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:10 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:11 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:12 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnNavigatingToProductsPage passed
+[INFO] 01-01-2025 21:46:18 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:46:25 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:46:25 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case VerifyOnSearchedProductNameMatchWithRelatingOfSearchedProducts started
+[INFO] 01-01-2025 21:46:32 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 01-01-2025 21:46:32 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: sleeveless
+[INFO] 01-01-2025 21:46:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[id="submit_search"]
+[INFO] 01-01-2025 21:46:33 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless dress
+[INFO] 01-01-2025 21:46:33 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless unicorn patch gown - pink
+[INFO] 01-01-2025 21:46:33 [main] [Pages.P06_searchPage.getSearchedNameProduct(P06_searchPage.java:34)] - sleeveless unicorn print fit & flare net dress - multi
+[INFO] 01-01-2025 21:46:33 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case VerifyOnSearchedProductNameMatchWithRelatingOfSearchedProducts passed
+[INFO] 01-01-2025 21:46:39 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:31)] - Browser is opened: chrome
+[INFO] 01-01-2025 21:46:48 [main] [Tests.TC06_SearchProductsTestCases.openBrowser(TC06_SearchProductsTestCases.java:33)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 21:46:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case verifyOnNavigatingToProductsPage started
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/products"]
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/products
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/products
+[INFO] 01-01-2025 21:46:53 [main] [Pages.P05_ProductsPage.verifyOnTitleOfAllProductsIsDisplayed(P05_ProductsPage.java:51)] - Title products page is: ALL PRODUCTS
+[INFO] 01-01-2025 21:46:53 [main] [Pages.P05_ProductsPage.verifyOnAllProductsIsVisable(P05_ProductsPage.java:61)] - size of product: 34
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:53 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:54 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Utilities.Utility.verifyOnButtonIsDisplayed(Utility.java:149)] - button is displayed on DOM
+[INFO] 01-01-2025 21:46:55 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case verifyOnNavigatingToProductsPage passed

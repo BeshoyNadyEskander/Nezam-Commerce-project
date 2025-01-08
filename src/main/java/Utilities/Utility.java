@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.annotation.processing.SupportedOptions;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,7 +22,7 @@ public class Utility {
 
     public static void clickingOnElement(WebDriver driver, By locator) {
         try {
-            new WebDriverWait(driver, Duration.ofSeconds(5))
+            new WebDriverWait(driver, Duration.ofSeconds(7))
                     .until(ExpectedConditions.elementToBeClickable(locator));
            driver.findElement(locator).click();
            LogsUtils.info("button is clickable: "+ locator);
@@ -58,11 +59,17 @@ public class Utility {
     }
 
     public static void scrolling(WebDriver driver, By locator) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", findWebElement(driver, locator));
+        ((JavascriptExecutor) driver)
+                .executeScript("arguments[0].scrollIntoView();", findWebElement(driver, locator));
     }
+
+
 
     public static WebElement findWebElement(WebDriver driver, By locator) {
         return driver.findElement(locator);
+    }
+    public static List<WebElement> findWebElements(WebDriver driver, By locator) {
+        return driver.findElements(locator);
     }
 
     public static void selectingFromDropDown(WebDriver driver, By locator, String option) {

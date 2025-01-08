@@ -1,0 +1,44 @@
+[INFO] 01-01-2025 23:40:44 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 01-01-2025 23:40:52 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 23:40:52 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case enterValidNameandEmailToGetAccountInformation started
+[INFO] 01-01-2025 23:41:01 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 23:41:02 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady2025-01-01-11-40-27PM
+[INFO] 01-01-2025 23:41:04 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-11-40-27PM@example.com
+[INFO] 01-01-2025 23:41:06 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 01-01-2025 23:41:06 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/signup
+[INFO] 01-01-2025 23:41:06 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/signup
+[INFO] 01-01-2025 23:41:06 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case enterValidNameandEmailToGetAccountInformation passed
+[INFO] 01-01-2025 23:41:17 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:52)] - Browser is opened: chrome
+[INFO] 01-01-2025 23:41:27 [main] [Tests.TC02_signupTestcase.openBrowser(TC02_signupTestcase.java:54)] - page is redirected to base URL: https://automationexercise.com/
+[INFO] 01-01-2025 23:41:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:9)] - Test Case signupSteps started
+[INFO] 01-01-2025 23:41:31 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: a[href="/login"]
+[INFO] 01-01-2025 23:41:32 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy Nady2025-01-01-11-40-27PM
+[INFO] 01-01-2025 23:41:32 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Test2025-01-01-11-40-27PM@example.com
+[INFO] 01-01-2025 23:41:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: form[action="/signup"] [type="submit"]
+[INFO] 01-01-2025 23:41:33 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: input[value="Mr"]
+[INFO] 01-01-2025 23:41:34 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 123456
+[INFO] 01-01-2025 23:41:34 [main] [Pages.P02_signupPage.enterBirthOfDate(P02_signupPage.java:95)] - Date of Birth is: 3-June-1996
+[INFO] 01-01-2025 23:41:34 [main] [Pages.P02_signupPage.selectedCheckBoxs(P02_signupPage.java:102)] - checkboxes are selected
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Beshoy
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterFirstName(P02_signupPage.java:108)] - first name: Beshoy
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Nady
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterLastName(P02_signupPage.java:114)] - last name: Nady
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Daugherty and Sons
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterCompany(P02_signupPage.java:121)] - company name: Daugherty and Sons
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 640 Murphy Mills, Huelton, VA 52716
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Apt. 432
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterAddress(P02_signupPage.java:128)] - first address: 640 Murphy Mills, Huelton, VA 52716 -second address: Apt. 432
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.selectCountry(P02_signupPage.java:134)] - country: United States
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: US
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterState(P02_signupPage.java:159)] - state: US
+[INFO] 01-01-2025 23:41:35 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: Miami
+[INFO] 01-01-2025 23:41:35 [main] [Pages.P02_signupPage.enterCity(P02_signupPage.java:141)] - city: Miami
+[INFO] 01-01-2025 23:41:36 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 18686
+[INFO] 01-01-2025 23:41:36 [main] [Pages.P02_signupPage.enterzipCode(P02_signupPage.java:147)] - zipcode: 18686
+[INFO] 01-01-2025 23:41:36 [main] [Utilities.Utility.sendData(Utility.java:42)] - sending data is: 1-333-101-3258 x51766
+[INFO] 01-01-2025 23:41:36 [main] [Pages.P02_signupPage.enterPhoneNumber(P02_signupPage.java:153)] - phone: 1-333-101-3258 x51766
+[INFO] 01-01-2025 23:41:37 [main] [Utilities.Utility.clickingOnElement(Utility.java:28)] - button is clickable: By.cssSelector: button[data-qa="create-account"]
+[INFO] 01-01-2025 23:41:37 [main] [Utilities.Utility.VerifyURL(Utility.java:128)] - Actual URL: https://automationexercise.com/account_created
+[INFO] 01-01-2025 23:41:37 [main] [Utilities.Utility.VerifyURL(Utility.java:129)] - Expected URL: https://automationexercise.com/account_created
+[INFO] 01-01-2025 23:41:37 [main] [Pages.P03_createdOrDeleteAccountPage.checkOnSuccessfullyMessageIsDisplayed(P03_createdOrDeleteAccountPage.java:25)] - message of creating account: ACCOUNT CREATED!
+[INFO] 01-01-2025 23:41:37 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:13)] - Test Case signupSteps passed
